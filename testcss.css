@@ -1,0 +1,2181 @@
+.search .c7 h3,
+.search h2 {
+    font-weight: 400
+}
+
+.filter li,
+.search h2,
+.search h3 {
+    font-size: 1.2em
+}
+
+.order-details b,
+.order-details h5,
+.registerLong h2,
+.registerShort h2,
+ul.phone li {
+    white-space: nowrap
+}
+
+.dropdown select,
+.dropdown select option,
+.myTI .e2ePost .post a,
+.myTI .e2ePosts td {
+    text-overflow: ellipsis
+}
+
+.search .c7 h2 {
+    margin-bottom: 1em
+}
+
+.search .c7 h3 {
+    margin-bottom: .2em;
+    line-height: 1.2
+}
+
+.search .pageContent .c5 {
+    float: right
+}
+
+.search .pageContent .clear {
+    margin-bottom: 1.5em
+}
+
+.filter {
+    width: 100%;
+    clear: both;
+    border-bottom: 1px dotted silver;
+    margin: 2em 0
+}
+
+.filter ul {
+    padding: 0 3%;
+    margin: 0
+}
+
+.filter li {
+    position: relative;
+    bottom: -1px;
+    float: left;
+    margin: 0 2em 0 0;
+    padding: 0 0 .2em;
+    background: 0 0
+}
+
+.filter li.active {
+    font-weight: 700;
+    border-bottom: 4px solid #c00
+}
+
+.filter a,
+.filter a:visited {
+    color: #333
+}
+
+.filter br {
+    display: none
+}
+
+.search .filter li {
+    background: url(/assets/images/iconSearch.png) -2px -398px no-repeat;
+    padding-left: 20px
+}
+
+.search .filter li.product {
+    background-position: -2px -698px
+}
+
+.search .filter li.technicalDocument {
+    background-position: -2px -998px
+}
+
+.search .filter li.support {
+    background-position: -2px -1298px
+}
+
+.search .filter li.crossReference {
+    background-position: -2px -1598px
+}
+
+.search .filter li.application {
+    background-position: -2px -1898px
+}
+
+.search .filter li.forum {
+    background-position: -2px -2198px
+}
+
+.search .filter li.blog {
+    background-position: -2px -2498px
+}
+
+.search .filter li.designNetwork {
+    background-position: -2px -2798px
+}
+
+.search .filter li.developerWiki {
+    background-position: -2px -3098px
+}
+
+.search .filter li.training {
+    background-position: -2px -3398px
+}
+
+.search .filter li.video {
+    background-position: -2px -3698px
+}
+
+.search .filter li.recommended {
+    background: 0 0;
+    padding-left: 0
+}
+
+.search .filter.sub {
+    margin: -2em 0 2.5em;
+    padding: .7em 0 0;
+    background: #f9f9f9
+}
+
+.search .filter.sub li {
+    background: 0 0;
+    padding-left: 0;
+    font-size: 1em
+}
+
+.search .pagination {
+    text-align: left;
+    color: #999;
+    margin-top: 1em
+}
+
+.search .pageTitle a.more {
+    margin-left: 2em
+}
+
+.search .pagination span {
+    position: relative;
+    top: -.5em;
+    float: right
+}
+
+.search .pagination a.next,
+.search .pagination a.prev {
+    background: url(/assets/images/iconSearch.png) no-repeat;
+    display: inline-block;
+    width: 17px;
+    height: 33px;
+    margin: 0 0 0 2em
+}
+
+.search .pagination a.next {
+    background-position: 0 -100px
+}
+
+.print {
+    margin: 0 0 1em;
+    text-align: right
+}
+
+.search .organic .clear,
+.search .recommended .clear {
+    position: relative;
+    padding: 0 0 0 25px;
+    margin-bottom: .5em
+}
+
+.search .organic .clear div,
+.search .recommended .clear div {
+    position: absolute;
+    left: 0;
+    background: url(/assets/images/iconSearch.png) 0 -200px no-repeat;
+    width: 20px;
+    height: 20px
+}
+
+.search .organic .clear.indent {
+    margin-left: 2em
+}
+
+.search .organic .clear p,
+.search .recommended .clear p {
+    font-size: .9em
+}
+
+.search .organic .clear p span {
+    color: #999
+}
+
+.myTI h1 span,
+.search .featured.product li#sampleBuy a {
+    color: #c00
+}
+
+.search .organic .clear.product div {
+    background-position: 0 -500px
+}
+
+.search .organic .clear.technicalDocument div {
+    background-position: 0 -800px
+}
+
+.search .organic .clear.support div {
+    background-position: 0 -1100px
+}
+
+.search .organic .clear.crossReference div {
+    background-position: 0 -1400px
+}
+
+.search .organic .clear.application div {
+    background-position: 0 -1700px
+}
+
+.search .organic .clear.forum div {
+    background-position: 0 -2000px
+}
+
+.search .organic .clear.blog div {
+    background-position: 0 -2300px
+}
+
+.search .organic .clear.designNetwork div {
+    background-position: 0 -2600px
+}
+
+.search .organic .clear.developerWiki div {
+    background-position: 0 -2900px
+}
+
+.search .organic .clear.training div {
+    background-position: 0 -3200px
+}
+
+.search .organic .clear.video div {
+    background-position: 0 -3500px
+}
+
+.search .organic .clear.estore div {
+    background-position: 0 -3800px
+}
+
+.search .recommended hr {
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 0
+}
+
+.search .recommended .clear div {
+    background-position: 0 -300px
+}
+
+.search .recommended .clear.product div {
+    background-position: 0 -600px
+}
+
+.search .recommended .clear.technicalDocument div {
+    background-position: 0 -900px
+}
+
+.search .recommended .clear.blog div,
+.search .recommended .clear.forum div,
+.search .recommended .clear.support div {
+    background-position: 0 -1200px
+}
+
+.search .recommended .clear.crossReference div {
+    background-position: 0 -1500px
+}
+
+.search .recommended .clear.application div {
+    background-position: 0 -1800px
+}
+
+.search .recommended .clear.designNetwork div {
+    background-position: 0 -2700px
+}
+
+.search .recommended .clear.developerWiki div {
+    background-position: 0 -3000px
+}
+
+.search .recommended .clear.training div {
+    background-position: 0 -3300px
+}
+
+.search .recommended .clear.video div {
+    background-position: 0 -3600px
+}
+
+.search .recommended .clear.estore div {
+    background-position: 0 -3900px
+}
+
+.search .recommended .clear p {
+    margin-top: 1em
+}
+
+.search .filter li,
+.search .organic .clear div,
+.search .pagination a.next,
+.search .pagination a.prev,
+.search .recommended .clear div {
+    background-image: url(/assets/images/iconSearch.svg), none
+}
+
+.search .organic .support {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 1.5em;
+    margin: 0 0 1.5em
+}
+
+.search .organic img {
+    float: left;
+    margin: .5em 1em .5em 0;
+    width: 120px
+}
+
+.search .featured.product h3.productNumber {
+    font-size: 2em;
+    margin-bottom: 0
+}
+
+.search .featured.product h3.productNumber font {
+    font-size: .5em;
+    font-weight: 400;
+    position: relative;
+    top: -.2em
+}
+
+.search .featured.product h3.productTitle {
+    font-size: 1.2em
+}
+
+.search .featured.product .image img {
+    float: right;
+    padding: 0 0 0 1em;
+    width: 150px
+}
+
+.search .featured.product .datasheet {
+    margin: 0 0 1.5em
+}
+
+.search .featured.product .datasheet a {
+    float: left;
+    background: url(/assets/images/icons/icon_m_pdf_a.png) no-repeat;
+    padding: .1em 0 .1em 22px;
+    margin-bottom: .5em;
+    color: #c00
+}
+
+.search .featured.product .datasheet a.online {
+    background-image: url(/assets/images/icons/icon_m_html_a.png);
+    margin-left: 1em
+}
+
+.search .featured.product ul,
+.search .supportLink ul {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 1em;
+    -moz-column-count: 2;
+    -moz-column-gap: 1em;
+    column-count: 2;
+    column-gap: 1em;
+    clear: both
+}
+
+.search .featured.product li,
+.search .supportLink li {
+    margin: 0 0 .2em
+}
+
+.search .featured li a br {
+    display: none
+}
+
+.search .stepDownConverter input {
+    width: 3em
+}
+
+.search .stepDownConverter table td {
+    padding: 0 .5em .5em 0;
+    vertical-align: middle;
+    white-space: nowrap
+}
+
+.search .organic span.quickLink a {
+    font-size: .9em
+}
+
+.search th select {
+    font-weight: 600
+}
+
+.search .advanced td {
+    padding: 0 .5em .5em 0
+}
+
+.search a.crossReferenceCode {
+    font-size: .9em;
+    font-weight: 400;
+    display: block;
+    margin: .5em 0 0
+}
+
+.search #crossReferenceCode,
+.search #xrefStatusCode {
+    font-size: .9em;
+    margin-top: 2em
+}
+
+.search .c5 table {
+    margin-bottom: .5em
+}
+
+#selection .part table,
+#selection .part td {
+    border: 0
+}
+
+.myTI body {
+    background-color: #fff
+}
+
+.myTI .myTITitle h1,
+.myTI .myTITitle>div {
+    float: left
+}
+
+.myTI .myTITitle>div {
+    margin: 0 0 3em 2em
+}
+
+.myTI .myTITitle>div p {
+    margin: 0 0 .2em
+}
+
+.myTI .myTIPreview h3 a {
+    font-size: .65em;
+    font-weight: 400;
+    margin: 0 0 0 2em
+}
+
+.myTI .myTIPreview td p {
+    margin-bottom: .5em
+}
+
+.myTI .e2ePost .post {
+    position: relative;
+    float: left;
+    background: #f0f0f0;
+    padding: 1em;
+    border-radius: .5em;
+    margin: 0 0 .5em;
+    width: 100%;
+    border: 1px solid #e0e0e0
+}
+
+.myTI .e2ePost .post:after {
+    position: absolute;
+    bottom: -16px;
+    left: 2em;
+    width: 16px;
+    height: 16px;
+    background: url(/assets/images/myTIE2EBubbleExtension.png) no-repeat;
+    background-image: url(/assets/images/myTIE2EBubbleExtension.svg), none;
+    content: ''
+}
+
+.myTI .e2ePost .post a {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    vertical-align: middle
+}
+
+.myTI .e2ePost .reply {
+    margin: 0 0 1em 4em;
+    clear: both
+}
+
+.myTI .myTIPreview .e2ePost span {
+    display: block;
+    font-size: .9em;
+    color: #999
+}
+
+.myTI .myTIPreview div .showPlus span {
+    display: inline-block
+}
+
+.myTI .orderHistory th:first-child {
+    width: 6.5em;
+    margin: 0 .5em 0 -1.4em
+}
+
+.myTI .orderHistory p,
+.myTI .orderHistory ul {
+    margin-left: 22px
+}
+
+.myTI .orderHistory p.showPlus {
+    margin-left: 0
+}
+
+.myTI .webench td a.button {
+    float: right
+}
+
+.showPlus {
+    position: relative;
+    padding: 0 0 0 22px
+}
+
+.showPlus span,
+span.showPlus {
+    background: url(/assets/images/iconPlus.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(/assets/images/iconPlus.svg), none
+}
+
+.showPlus span {
+    margin: 0 25px 0 -3.1em
+}
+
+p.showPlus span {
+    margin: 0 .3em 0 -22px
+}
+
+.showPlus .expanded span {
+    background-position: 0 -100px
+}
+
+.showPlus .expanded ul {
+    margin: 0
+}
+
+ul.showPlus {
+    margin-bottom: 0;
+    margin-left: 0
+}
+
+ul.showPlus li {
+    background: 0 0;
+    margin: 0 0 .5em;
+    line-height: 1.4em
+}
+
+.myTI .checklist ul.showPlus li {
+    padding-left: 3.1em;
+    position: relative;
+    display: block;
+    vertical-align: middle
+}
+
+.myTI .checklist ul.showPlus ul {
+    margin-left: 0
+}
+
+.myTI .checklist ul.showPlus ul li {
+    padding-left: 1.4em
+}
+
+.myTI .checklist ul.showPlus li input[type=checkbox] {
+    margin-left: -1.4em
+}
+
+.myTI .checklist table {
+    max-width: 900px;
+    margin-bottom: 1.5em
+}
+
+.myTI .checklist td {
+    width: 50%
+}
+
+span.showPlus {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0;
+    position: relative
+}
+
+span.selectAll {
+    float: right;
+    margin: .5em 0 0
+}
+
+.myTI .pageNav~div.error,
+.myTI .pageNav~div.success,
+.myTI .pageNav~ul.alert.alertfont,
+.order-details td.orderDetail h5 {
+    float: left
+}
+
+.order-details table {
+    width: 100%
+}
+
+.order-details td {
+    padding-right: .5em;
+    vertical-align: top
+}
+
+.order-details td.orderDetail {
+    width: 17.5%
+}
+
+.order-details td.orderDetail p {
+    margin-left: .5em
+}
+
+.order-details td.billTo,
+.order-details td.shipTo {
+    width: 10%;
+    text-align: right
+}
+
+.order-details td.billingDetail,
+.order-details td.shippingDetail {
+    width: 17.5%
+}
+
+.order-details b {
+    margin-right: .5em
+}
+
+.orders-list {
+    Width: 100%
+}
+
+.myTI .formlist li {
+    overflow: visible!important
+}
+
+.formlist .dropdown+ul {
+    margin: 0;
+    height: 0;
+    overflow: hidden;
+    width: 20em;
+    background: #fff;
+    position: absolute;
+    z-index: 1
+}
+
+.formlist .dropdown.active+ul {
+    margin: 0;
+    height: 12em;
+    overflow: auto;
+    border: 1px solid silver;
+    border-radius: .2em
+}
+
+.profile .formlist .dropdown+ul li {
+    padding-left: .4em;
+    margin: 0;
+    line-height: 2.4em;
+    cursor: pointer
+}
+
+.dropdown,
+.dropdown:active,
+.dropdown:focus {
+    border-radius: .2em;
+    border: 1px solid silver;
+    display: inline-block;
+    background: #fff;
+    cursor: pointer;
+    line-height: 1.4em;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle
+}
+
+.dropdown.active,
+.myTI .invalid .dropdown.active {
+    border-color: #189
+}
+
+.myTI .dropdown input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 0 .5em
+}
+
+.dropdown select {
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    padding: .35em .35em .35em .1em;
+    margin: 0;
+    width: 100%
+}
+
+.lt-ie10 .dropdown select {
+    padding: .4em .4em .4em .1em
+}
+
+.myTI .formlist.newsletters>li {
+    list-style-type: none;
+    background: 0 0;
+    padding-left: 9.5em;
+    margin: 0 1em 1em 0;
+    position: relative;
+    vertical-align: middle;
+    line-height: 1.5em
+}
+
+.myTI .lt-ie10 .formlist.newsletters>li {
+    padding-left: 10em
+}
+
+.newsletters .dropdown {
+    position: absolute;
+    padding: 0;
+    margin-left: -9.5em
+}
+
+.lt-ie10 .newsletters .dropdown {
+    margin-left: -10em;
+    z-index: 1
+}
+
+.formlist.newsletters label {
+    display: inline;
+    line-height: 1.5em;
+    position: relative;
+    margin: 0 .3em 0 0;
+    vertical-align: middle
+}
+
+.formlist.newsletters label:hover {
+    cursor: default
+}
+
+.newsletters select {
+    width: 6.5em
+}
+
+.lt-ie10 .newsletters .active select,
+.lt-ie10 .newsletters .expand select {
+    width: auto
+}
+
+.lt-ie10 .newsletters select {
+    min-width: 6.5em
+}
+
+.myTI .info,
+.search .info {
+    position: relative;
+    display: inline-block;
+    min-width: 18px;
+    min-height: 18px;
+    vertical-align: middle;
+    cursor: pointer;
+    background: url(/assets/images/iconMyTIinfoSprite.png) no-repeat;
+    background-image: url(/assets/images/iconMyTIinfoSprite.svg), none;
+    padding: 0 0 0 22px
+}
+
+.myTI .info-2 {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    -webkit-transition: max-height .2s, padding .2s, border .2s;
+    transition: max-height .2s, padding .2s, border .2s;
+    overflow: hidden;
+    display: block;
+    max-height: 0;
+    padding: 0;
+    max-width: 500px
+}
+
+.myTI .info-2.active {
+    max-height: 1200px;
+    padding-bottom: 1px
+}
+
+.myTI .info-2>div {
+    padding: 1em 1.8em 1em 1em;
+    border: 1px solid silver;
+    border-radius: .2em;
+    background: #fff
+}
+
+.myTI .info-2>div p:last-child {
+    margin-bottom: 0
+}
+
+.myTI .info-2 .close {
+    padding: 11px;
+    position: absolute;
+    top: .5em;
+    right: 0;
+    background: url(/assets/images/iconCloseModal.png) no-repeat;
+    background-image: url(/assets/images/iconCloseModal.svg), none;
+    cursor: pointer
+}
+
+.myTI .info-2 .close:active {
+    background-position: 0 -100px
+}
+
+.myTI .login div.info,
+.myTI .registerLogin div.info {
+    top: inherit
+}
+
+.myTI .newsletters .info-2 {
+    margin: 1em 0 0 -9.5em
+}
+
+.myTI .lt-ie10 .newsletters .info-2 {
+    margin: 1em 0 0 -10em
+}
+
+.myTI .newsletters .info {
+    margin: 0
+}
+
+.myTI .two-col {
+    overflow: hidden;
+    max-width: 960px
+}
+
+.myTI .two-col>div {
+    width: 50%;
+    float: left;
+    padding-right: 1em
+}
+
+.myTI .formlist {
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+
+.myTI .formlist>div>li,
+.myTI .formlist>li {
+    background: 0 0;
+    padding: 0;
+    margin-bottom: 1em;
+    position: relative;
+    overflow: visible;
+    vertical-align: middle
+}
+
+.myTI .formlist>li#CNnewEmailSignupDiv,
+.myTI .formlist>li#JPnewEmailSignupDiv,
+.myTI .formlist>li#newEmailSignupDiv {
+    line-height: 1em!important
+}
+
+.myTI .login .formlist>li label {
+    margin-left: -11em;
+    position: absolute
+}
+
+.myTI .login .formlist>li {
+    padding-left: 12em
+}
+
+.myTI .login .formlist li label {
+    margin-left: -12em;
+    position: absolute
+}
+
+.myTI .profile .formlist>div>li,
+.myTI .profile .formlist>li {
+    padding-left: 10em
+}
+
+.myTI .profile .formlist>div>li label,
+.myTI .profile .formlist>li label {
+    margin-left: -10em;
+    position: absolute
+}
+
+.myTI .profile .formlist>li label.radio {
+    margin-left: inherit;
+    position: inherit;
+    margin-right: 1em
+}
+
+.extranets ul.formlist {
+    border-radius: .2em;
+    border: 1px solid silver;
+    padding: 1em;
+    width: 30%;
+    min-width: 360px;
+    margin-bottom: 2em;
+    background: #fff
+}
+
+.extranets ul.formlist .dropdown,
+.extranets ul.formlist input,
+.extranets ul.formlist select {
+    width: 100%
+}
+
+.extranets .formlist li {
+    padding-left: 6em
+}
+
+.extranets .formlist li label {
+    margin-left: -6em;
+    position: absolute
+}
+
+.productAlert .addAlert {
+    border-radius: .2em;
+    border: 1px solid #e0e0e0;
+    padding: 1em;
+    width: 40%;
+    min-width: 515px;
+    margin-bottom: 2em;
+    background: #fff
+}
+
+.myTI ul.autoComplete {
+    padding: 0;
+    position: absolute;
+    display: none;
+    overflow: auto;
+    max-height: 14.7em;
+    background: #FFF;
+    border: 1px solid silver;
+    border-radius: .2em;
+    margin: 0;
+    z-index: 1001
+}
+
+.myTI ul.autoComplete li {
+    background-image: none;
+    display: block;
+    padding: 0 .4em;
+    margin: 0;
+    line-height: 2em;
+    border-bottom: 1px dotted silver;
+    cursor: pointer
+}
+
+.myTI ul.autoComplete.active {
+    display: block
+}
+
+.myTI ul.autoComplete li:hover {
+    background: #ebf5f7
+}
+
+.myTI ul.autoComplete li:last-child {
+    border: none
+}
+
+.captcha,
+.info-email {
+    background: #fff;
+    border-radius: .2em;
+    display: inline-block
+}
+
+.addAlert input[type=text] {
+    position: relative;
+    z-index: 1
+}
+
+.addAlert .autoComplete,
+.addAlert input {
+    width: 15em
+}
+
+.addAlert hr {
+    margin: 0 -1em 1.5em
+}
+
+.addAlert .formlist>li {
+    padding-left: 9em
+}
+
+.addAlert .formlist>li label {
+    margin-left: -9em;
+    position: absolute
+}
+
+.addAlert .btnC {
+    position: absolute;
+    margin-left: .5em
+}
+
+.info-email {
+    padding: 10px;
+    border: 1px solid silver
+}
+
+.myTI hr {
+    margin: 3em 0;
+    border: 0;
+    border-bottom: 1px dotted #ccc
+}
+
+.myTI .registerLong hr.short {
+    width: 280px;
+    text-align: left
+}
+
+.captcha {
+    border: 1px solid silver;
+    padding: .5em
+}
+
+.captcha:focus {
+    border-radius: .2em;
+    border: 1px solid #189
+}
+
+.captcha.active {
+    border: 1px solid #189;
+    display: inline-block
+}
+
+.captcha div {
+    border-radius: .2em;
+    background: #777;
+    display: inline-block;
+    height: 2.5em;
+    width: 2.5em;
+    line-height: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin: .5em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+.captcha div:active {
+    background: #d11
+}
+
+.profile .comboBox,
+.profile ul .dropdown,
+.profile ul input[type=password],
+.profile ul input[type=text] {
+    width: 70%;
+    direction: ltr;
+    vertical-align: middle
+}
+
+.profile .dropdown {
+    min-width: 70%
+}
+
+.lt-ie10 .profile .dropdown.active,
+.lt-ie10 .profile .dropdown.expand {
+    width: auto
+}
+
+ul.phone .dropdown.countryCode {
+    display: inline-block;
+    width: 6.2em;
+    min-width: 0;
+    margin-right: .5em
+}
+
+.registerLong .formlist.phone label {
+    display: block;
+    line-height: 2em
+}
+
+.lt-ie10 ul.phone .dropdown.countryCode {
+    position: absolute;
+    width: 6.2em;
+    min-width: 6.2em
+}
+
+.lt-ie10 ul.phone .dropdown.countryCode.active,
+.lt-ie10 ul.phone .dropdown.countryCode.expand {
+    width: auto
+}
+
+ul.phone input[type=text].areaCode {
+    width: 3.5em;
+    margin-right: .5em
+}
+
+.lt-ie10 ul.phone input[type=text].areaCode {
+    margin-left: 6.7em
+}
+
+ul.phone input[type=text].phone {
+    width: 9.3em;
+    margin-right: .5em
+}
+
+.profile .comboBox input,
+.profile .comboBox select {
+    border: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.profile .comboBox.dropdown {
+    background-position: 25% center
+}
+
+.profile ul.formlist {
+    width: 30%;
+    min-width: 540px
+}
+
+.myti ul input[type=text].extension,
+.profile ul input[type=text].extension,
+.registerLong .formMiddle input[type=text].extension {
+    width: 6em
+}
+
+ul.help li {
+    margin-bottom: 2em
+}
+
+ul.help p {
+    margin-top: 1em
+}
+
+ul.help input.demo {
+    width: 25%;
+    min-width: 300px
+}
+
+.myti ul.results {
+    list-style: none
+}
+
+ul.results li {
+    background: 0 0;
+    padding: 0;
+    margin: 0 0 2em
+}
+
+.myTI .pageGroup {
+    background: #edf7f8;
+    background: -moz-radial-gradient(center, ellipse cover, #F4F9FA 50%, #b8dce1 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #F4F9FA 50%, #b8dce1 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #F4F9FA 50%, #b8dce1 100%);
+}
+
+.myTI #en_ab_frame~.pageGroup,
+.myTI #en_ab_frame~form .pageGroup {
+    margin-top: -1.5em
+}
+
+.myTI div.error,
+.myTI div.success,
+.myTI ul.alert.alertfont {
+    margin: 0 3% 1em;
+    padding: 1em 1em 1em 3em;
+    border-radius: .2em;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+    background: #d9f1f4;
+    position: relative;
+    width: 100%;
+    width: 424px;
+    color: #333
+}
+
+.myTI div.eventTitle {
+    padding: 2em 2em 0
+}
+
+.myTI .event div.error,
+.myTI .event div.success,
+.myTI .event ul.alert.alertfont {
+    margin: 40px 40px 0;
+    max-width: inherit
+}
+
+.myTI .registerLong .errorMsg,
+.myTI .registerLong div.error,
+.myTI .registerLong div.success,
+.myTI .registerShort .errorMsg,
+.myTI .registerShort div.error,
+.myTI .registerShort div.success,
+.myTI .registerShort ul.alert.alertfont,
+.myTI div.eventTitle {
+    width: 280px
+}
+
+.myTI .registerLong .registerLogin ul.alert.alertfont,
+.myTI .registerShort .registerLogin .errorMsg,
+.myTI .registerShort .registerLogin div.error,
+.myTI .registerShort .registerLogin div.success,
+.myTI .registerShort .registerLogin ul.alert.alertfont {
+    width: auto
+}
+
+.myTI div.error:after,
+.myTI div.success:after,
+.myTI ul.alert.alertfont:after {
+    left: 1em;
+    top: 1em;
+    content: '';
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute
+}
+
+.myTI .errorMsg {
+    display: block;
+    max-width: 280px
+}
+
+.myTI .navCollapsed .error {
+    margin-left: 4%
+}
+
+.myTI div.success:after {
+    background: url(/assets/images/iconMyTI.png) -30px -58px no-repeat;
+    background-image: url(/assets/images/iconMyTI.svg), none
+}
+
+.myTI .error p,
+.myTI .success p {
+    margin: 0
+}
+
+.myTI div.error:after,
+.myTI ul.alert.alertfont:after {
+    background: url(/assets/images/iconMyTI.png) 0 -60px no-repeat;
+    background-image: url(/assets/images/iconMyTI.svg), none
+}
+
+.myTI .registerLogin #displayError ul.alert.alertfont,
+.myTI ul.alert.alertfont {
+    margin: -20px -20px .5em;
+    width: 240px;
+    padding: 1em 1em 1em 3em
+}
+
+.myTI ul.alert.alertfont li {
+    margin: 0;
+    padding: 0;
+    background-image: none
+}
+
+.formlist li.validation {
+    display: block;
+    height: 0;
+    min-height: 0;
+    margin: 0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    overflow: hidden;
+    visibility: hidden;
+    line-height: 1.5em
+}
+
+.addAlert .formlist li.validation.error {
+    margin: 0
+}
+
+.formlist li.validation.error,
+.formlist li.validation.success {
+    height: auto;
+    min-height: 1em;
+    margin: 0 0 1.6em;
+    visibility: visible
+}
+
+.formlist li.validation.success {
+    color: #49b653
+}
+
+.formlist li.validation.error {
+    color: #c00
+}
+
+.formlist li.invalid,
+.formlist li.valid {
+    margin: 0 0 .6em
+}
+
+span.optional {
+    color: #AAA;
+    font-style: italic
+}
+
+.event span.optional {
+    position: absolute;
+    top: 1.4em;
+    left: 0
+}
+
+.myTI .invalid .dropdown,
+.myTI .invalid input {
+    border-color: #c00!important
+}
+
+.myTI .validation.success {
+    display: inline-block;
+    background: url(/assets/images/iconMyTI.png) -30px -58px no-repeat;
+    background-image: url(/assets/images/iconMyTI.svg), none;
+    padding-left: 1.75em;
+    min-height: 1.5em;
+    vertical-align: middle
+}
+
+.myTI label.required:after,
+.myTI p.required:after {
+    content: '*';
+    position: absolute;
+    color: #c00;
+    left: -.75em;
+    top: 0
+}
+
+.myTI p.required {
+    clear: both;
+    position: relative
+}
+
+.registerLong .formMiddle .info-2,
+.registerLong .formMiddle h1,
+.registerLong .formMiddle h2,
+.registerLong .formMiddle h3,
+.registerLong .formMiddle h4,
+.registerLong .formMiddle h5,
+.registerLong .formMiddle label,
+.registerShort .formMiddle .info-2,
+.registerShort .formMiddle h1,
+.registerShort .formMiddle h2,
+.registerShort .formMiddle h3,
+.registerShort .formMiddle h4,
+.registerShort .formMiddle h5,
+.registerShort .formMiddle label {
+    color: #333
+}
+
+.event .formMiddle,
+.registerLong .formMiddle,
+.registerShort .formMiddle {
+    z-index: 1;
+    width: 640px;
+    overflow: hidden;
+    color: #333;
+    margin: 0;
+    background: #fff;
+    background: rgba(255, 255, 255, .85);
+    border-radius: .2em;
+    border: 1px solid #e0e0e0;
+    position: relative
+}
+
+.registerLong h2,
+.registerShort h2 {
+    margin-bottom: 0;
+    display: inline-block
+}
+
+.event .formMiddle .pageContent,
+.registerLong .formMiddle .pageContent,
+.registerShort .formMiddle .pageContent {
+    margin: 0;
+    padding: 2em;
+    min-width: inherit
+}
+
+.event .formMiddle {
+    margin-left: 3%;
+    width: 800px
+}
+
+.event .formMiddle .pageTitle,
+.registerLong .formMiddle .pageTitle,
+.registerLong .formMiddle .siloTitle,
+.registerShort .formMiddle .pageTitle,
+.registerShort .formMiddle .siloTitle {
+    margin: 0;
+    padding: 2em 2em 0
+}
+
+.registerLong .optIn {
+    background: 0 0
+}
+
+.optIn hr {
+    margin: 0 -20px 20px
+}
+
+.optIn p {
+    float: right;
+    width: 80%
+}
+
+.registerLong .formMiddle .error,
+.registerLong .formMiddle .success,
+.registerShort .formMiddle .error,
+.registerShort .formMiddle .success {
+    margin: 1em 2em 0
+}
+
+.registerLong .formMiddle .pageTitle h1,
+.registerShort .formMiddle .pageTitle h1 {
+    padding: 0;
+    margin: 0
+}
+
+.registerLong .registerLogin,
+.registerShort .registerLogin {
+    display: inline-block;
+    width: 280px;
+    padding: 2em;
+    background: #fff;
+    background: rgba(255, 255, 255, .85);
+    border-radius: .2em;
+    float: left;
+    margin: 0 3%;
+    border: 1px solid #e0e0e0;
+    position: relative;
+    z-index: 2
+}
+
+.registerLong .registerLogin .formlist,
+.registerShort .registerLogin .formlist {
+    margin-top: 2em
+}
+
+.registerLong .registerLogin .info-2,
+.registerShort .registerLogin .info-2 {
+    margin: .5em -20px;
+    width: 240px
+}
+
+.registerLong .registerLogin input[type=password],
+.registerLong .registerLogin input[type=text],
+.registerShort .registerLogin input[type=password],
+.registerShort .registerLogin input[type=text] {
+    width: 100%
+}
+
+.registerShort .formMiddle .formlist .wrapper,
+.registerLong .formMiddle .formlist .wrapper,
+.profile .formlist .wrapper {
+    margin-left: -1em;
+    padding: 1em;
+    border: 1px solid #c0c0c0;
+    border-radius: .2em;
+    overflow: hidden;
+}
+
+.registerShort .formMiddle .formlist .wrapper.highlight,
+.registerLong .formMiddle .formlist .wrapper.highlight,
+.profile .formlist .wrapper.highlight {
+    margin-left: 0em;
+    width: 96%;
+    margin-top: 2em;
+    padding: 1em 2em;
+    border: 3px solid #118899;
+    border-radius: .35rem;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .09), 0 3px 4px 0 rgba(0, 0, 0, .11), 0 3px 3px -2px rgba(0, 0, 0, .09);
+    overflow: hidden
+}
+
+.profile .formlist .wrapper,
+.profile .formlist .wrapper.highlight {
+    overflow: visible
+}
+
+.profile .formlist .wrapper.webench,
+.registerLong .formMiddle .formlist .wrapper.webench,
+.registerShort .formMiddle .formlist .wrapper.webench {
+    margin: 0 0 1em
+}
+
+.registerLong.formMiddle .formlist .wrapper+li,
+.registerShort .formMiddle .formlist .wrapper+li {
+    margin-top: 1.2em
+}
+
+.registerLong .formMiddle .info,
+.registerShort .formMiddle .info {
+    top: 0
+}
+
+.registerLong .formMiddle label,
+.registerShort .formMiddle label {
+    line-height: 1.4em;
+    display: inline
+}
+
+.myTI .pageGroup.registerLong,
+.myTI .pageGroup.registerShort {
+    position: relative
+}
+
+html.myTI.longForm,
+html.myTI.shortForm {
+    background: 0 0;
+    min-width: 100%
+}
+
+.myTI.longForm .registerLong,
+.myTI.shortForm .registerShort {
+    background: url(/assets/images/myTI_bgShortForm.jpg) -160px 0 no-repeat #81ced4;
+    overflow: hidden
+}
+
+.registerLong .formMiddle .dropdown,
+.registerLong .formMiddle input[type=date],
+.registerLong .formMiddle input[type=password],
+.registerLong .formMiddle input[type=text],
+.registerShort .formMiddle .dropdown,
+.registerShort .formMiddle input[type=date],
+.registerShort .formMiddle input[type=password],
+.registerShort .formMiddle input[type=text] {
+    width: 20em
+}
+
+.registerLong .formMiddle .dropdown,
+.registerLong .formMiddle input[type=date],
+.registerLong .formMiddle input[type=password],
+.registerLong .formMiddle input[type=text] {
+    width: 280px
+}
+
+.lt-ie10 .registerShort .dropdown.active,
+.lt-ie10 .registerShort .dropdown.expand {
+    width: auto
+}
+
+.myTI .formMiddle .ielt10only,
+.myTI .ielt10only {
+    display: none
+}
+
+.myTI .lt-ie10 .formMiddle .ielt10only,
+.myTI .lt-ie10 .ielt10only {
+    display: block
+}
+
+.myTI .lt-ie10 li.ielt10only {
+    margin: 0 0 .25em
+}
+
+.myTI .lt-ie10 label.ielt10only {
+    display: block;
+    padding-left: .4em
+}
+
+.myTI .errorMsg p {
+    color: #c00;
+    margin: 0 0 1em;
+    padding: 0
+}
+
+.myTI .e2ePosts .int {
+    display: inline-block;
+    background: #ffffb3;
+    padding: 0 .2em;
+    color: #555;
+    font-weight: 600
+}
+
+.myTI .e2ePosts .int:hover {
+    color: #c00
+}
+
+h4 strong {
+    color: #189
+}
+
+.emailverify input {
+    width: 30%;
+    max-width: 300px
+}
+
+#benefits {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    background: url(/assets/images/myTIGraphic-240.png) no-repeat;
+    padding-top: 110px;
+    width: 260px
+}
+
+#benefits ul {
+    margin-left: 2em
+}
+
+#benefits li {
+    list-style-type: disc;
+    background: 0 0;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    font-family: Roboto, arial;
+    font-weight: 300;
+    text-shadow: 0 0 20px #fff;
+    padding: 0;
+    color: silver
+}
+
+.myTI .formtipbox,
+.myTI .login .formlist .formtipbox p {
+    line-height: 1.5em
+}
+
+.myTI .formtipbox {
+    position: absolute;
+    left: 295px;
+    max-width: 60%;
+    color: #FFF;
+    border-radius: .2em;
+    box-shadow: 3px 3px 4px #CCC;
+    padding: .5em 1em;
+    background: #189;
+    z-index: 999;
+    display: none
+}
+
+.myTI .profile .formtipbox {
+    left: auto;
+    width: 100%;
+    margin-left: 1em
+}
+
+.myTI .event .profile .formtipbox {
+    width: 50%
+}
+
+.myTI .e2ePrefs .formtipbox,
+.myTI .login .formtipbox {
+    left: auto;
+    margin-left: 1em;
+    width: 100%;
+    max-width: 320px
+}
+
+.myTI .formtipbox p {
+    margin: 0
+}
+
+.myTI .formtipbox:before {
+    content: '';
+    position: absolute;
+    height: 17px;
+    width: 8px;
+    background: url(/assets/images/formTooltipL.png);
+    left: -7px;
+    top: 50%;
+    margin-top: -9px
+}
+
+.myTI .promo,
+.myTIPreview .promo {
+    border-radius: .2em;
+    background: #fff;
+    padding: 1em;
+    border: 1px solid #E0E0E0;
+    margin: 0 0 1em!important;
+    min-height: 50px!important;
+    max-width: 700px
+}
+
+.e2e .tblstandard.sort.e2ePosts tr td p,
+.myTI .promo h5,
+.myTIPreview .promo h5 {
+    margin: 0
+}
+
+.myTI .promo.chipicon h5,
+.myTIPreview .promo.chipicon h5 {
+    background: url(/assets/images/icons/icon_m_chip_a.png) top left no-repeat;
+    padding: .1em 0 0 2em;
+    color: #fff;
+    min-height: 20px
+}
+
+.myTI .promo.boardicon h5,
+.myTIPreview .promo.boardicon h5 {
+    background: url(/assets/images/icons/icon_m_board_a.png) top left no-repeat;
+    padding: .05em 0 0 2em;
+    color: #fff;
+    min-height: 20px
+}
+
+.myTI .promo.webenchicon h5,
+.myTIPreview .promo.webenchicon h5 {
+    background: url(/assets/images/icons/icon_m_webench_a.png) top left no-repeat;
+    padding: .1em 0 0 2em;
+    color: #fff;
+    min-height: 20px
+}
+
+.myTI .promo.toolsicon h5,
+.myTIPreview .promo.toolsicon h5 {
+    background: url(/assets/images/icons/icon_m_tools-software_a.png) top left no-repeat;
+    padding: 0 0 0 2em;
+    color: #fff;
+    min-height: 20px
+}
+
+.myTIPreview .orderHistory p {
+    margin-left: 0
+}
+
+.e2e .tblstandard.sort.e2ePosts td .postThumbnail {
+    display: inline-block;
+    vertical-align: top;
+    left: 0;
+    top: 5px
+}
+
+.e2e .tblstandard.sort.e2ePosts tr td div.postThumbnail {
+    display: inline-block;
+    left: 0;
+    top: 0;
+    min-height: 20px;
+    width: 20px;
+    margin: 0 .3em 0 0;
+    padding: 0;
+    line-height: 1.2em
+}
+
+.myTI .e2ePosts table {
+    table-layout: fixed;
+    width: 100%
+}
+
+.myTI .e2ePosts td {
+    overflow: hidden
+}
+
+.myTI .e2ePosts th:nth-child(1) {
+    width: 50%
+}
+
+.myTI .e2ePosts th:nth-child(2) {
+    width: 40%
+}
+
+.myTI .e2ePosts th:nth-child(3) {
+    width: 10%
+}
+
+.e2e td p {
+    margin: 0
+}
+
+.e2e div.postThumbnail {
+    float: left;
+    margin-right: .5em;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    padding-left: 1.3em
+}
+
+.e2e div.postThumbnail.forDiscussion {
+    display: none
+}
+
+.e2e div.postThumbnail.notAnswered {
+    padding-left: 0
+}
+
+.e2e div.postThumbnail.suggestedAnswer {
+    background: url(/assets/images/iconMyTIE2EPostsSprite.png) 0 -97px no-repeat
+}
+
+.e2e div.postThumbnail.verifiedAnswer {
+    background: url(/assets/images/iconMyTIE2EPostsSprite.png) 0 3px no-repeat
+}
+
+.e2e div.postThumbnail:after {
+    color: #aaa;
+    display: inline-block
+}
+
+.e2e div.postThumbnail.notAnswered:after {
+    content: 'Not\00a0 answered'
+}
+
+.e2e div.postThumbnail.suggestedAnswer:after,
+.e2e div.postThumbnail.verifiedAnswer:after {
+    content: 'Answered'
+}
+
+.e2ePrefs ul.formlist {
+    margin-left: 19em;
+    width: 30%;
+    min-width: 420px
+}
+
+.e2ePrefs .formlist li .button {
+    margin-left: -19em
+}
+
+.e2ePrefs .formlist li {
+    margin-left: 0
+}
+
+.e2ePrefs .formlist h4 {
+    margin-left: -19em
+}
+
+.e2eEmailPrefs .formlist h4 {
+    margin-top: 1em
+}
+
+.e2ePrefs .formlist li label.radio {
+    margin-left: inherit;
+    position: inherit;
+    margin-right: .25em
+}
+
+.e2ePrefs .formlist li label {
+    margin-left: -19em;
+    position: absolute
+}
+
+.e2ePrefs .dropdown,
+.e2ePrefs input[type=password],
+.e2ePrefs input[type=text],
+.e2ePrefs input[type=textarea],
+.e2ePrefs textarea {
+    width: 70%
+}
+
+.e2ePrefs ul.formlist .dropdown {
+    margin-left: 0
+}
+
+.e2ePrefs div.short {
+    margin: 1.5em 0
+}
+
+.e2ePrefs .short h4,
+.e2ePrefs .short li {
+    margin-bottom: .3em
+}
+
+.e2ePrefs .formlist li.checkbox {
+    margin-left: -19em
+}
+
+.e2eEmailPrefs .formlist li.checkbox label,
+.e2ePrefs .formlist li.checkbox label {
+    left: 0!important;
+    margin-left: 1.4em
+}
+
+.e2ePrefs .formlist li .deemphasize {
+    color: #999;
+    font-size: .8em;
+    line-height: 1.4em;
+    padding-top: 2.6em!important;
+    margin-left: -23.8em;
+    width: 16em
+}
+
+.e2eEmailPrefs .formlist li {
+    list-style-type: none;
+    background: 0 0;
+    padding: 0;
+    margin: 0 0 .5em;
+    position: relative
+}
+
+.e2eEmailPrefs .dropdown select {
+    width: auto
+}
+
+.e2eEmailPrefs div.short {
+    margin: 1.5em 0
+}
+
+.e2eEmailPrefs li .inputdescription {
+    margin-top: -.4em;
+    margin-left: 1.2em
+}
+
+.e2eEmailPrefs .lt-ie10 .inputdescription {
+    margin-left: 1.7em!important
+}
+
+.e2eEmailPrefs li .inputdescription2 {
+    margin-bottom: -.4em
+}
+
+.e2eEmailPrefs .formlist li .dropdown {
+    position: absolute;
+    margin-left: 19em
+}
+
+.myTI .e2eEmailPrefs .formlist .indent label {
+    line-height: 2.4em
+}
+
+.login.level1 label {
+    cursor: default
+}
+
+.login .formlist li input[type=checkbox].adjacent {
+    margin: .7em .4em 0 .8em
+}
+
+.login .formlist li .checkbox {
+    margin-left: 0
+}
+
+.login .formlist li #remember2,
+.login .formlist li label.checkbox {
+    margin-left: 0;
+    position: relative;
+    padding-left: 0
+}
+
+.profile .formlist li.checkbox {
+    margin-left: -10em;
+    width: 120%
+}
+
+.profile .formlist li.checkbox label {
+    position: relative;
+    margin: 0
+}
+
+.e2eEmailPrefs .indent,
+.e2ePrefs .indent {
+    padding-left: 1.3em!important
+}
+
+.e2ePrefs .formlist li input .radio {
+    margin: 0;
+    padding: 0
+}
+
+form[name=areasOfInterest] table {
+    width: 100%;
+    max-width: 800px
+}
+
+form[name=areasOfInterest] td {
+    vertical-align: top;
+    width: 50%
+}
+
+.e2e form .search {
+    position: relative
+}
+
+.e2e ul {
+    margin-left: 0;
+    padding-left: 0
+}
+
+.e2e .noBullet li {
+    background: 0 0;
+    padding-left: 0;
+    font-size: .9em
+}
+
+p.socialDetails {
+    line-height: 1.6em;
+    margin: 0 0 2em;
+    font-style: italic
+}
+
+.myTIPreview .c4.e2e .tblstandard tbody tr .textContent h4,
+.myTIPreview .c4.e2e .tblstandard tbody tr .textContent p {
+    margin-bottom: 1em
+}
+
+.myTIPreview .c4.e2e .tblstandard tbody tr .textContent .two-col .col-1 {
+    width: 55%
+}
+
+.myTIPreview .c4.e2e .tblstandard tbody tr .textContent .two-col .col-2 {
+    width: 45%
+}
+
+.myTIPreview .e2e tr .textContent img {
+    width: 100%;
+    max-width: 268px;
+    max-height: 48px;
+    margin: 0 0 .5em
+}
+
+.myTIPreview .e2e .tblstandard tbody tr .textContent hr {
+    margin: 1.5em 0
+}
+
+.myTI .textContent,
+.myTIPreview .textContent {
+    padding: 1.5em 1em!important
+}
+
+.myTIPreview .e2ePost h3 {
+    min-width: 280px
+}
+
+.e2ePrefs .formlist li.checkbox label {
+    position: relative;
+    margin-left: 0
+}
+
+.myTI .optIn hr {
+    clear: both
+}
+
+.myTI #noResult.pagination {
+    width: 100%;
+    text-align: left
+}
+
+.myTI #noResult.pagination #noResult.search {
+    margin-left: 0
+}
+
+label#newEmailSignup {
+    vertical-align: top;
+    display: inline-block
+}
+
+.myTI .disclaimer {
+    margin: 1em 0 0
+}
+
+input.searchButton {
+    background: url(/assets/images/iconFolder.png) 5px -392px no-repeat;
+    background-image: url(/assets/images/iconFolder.svg), none;
+    border: 0;
+    width: 2em;
+    height: 2em;
+    cursor: pointer
+}
+
+#updateSubscriptionForm .products UL LI label {
+    max-width: 75%\9;
+    word-wrap: break-word\9;
+    white-space: normal\9
+}
+
+#CNnewEmailSignupDiv,
+#JPnewEmailSignupDiv,
+#newEmailSignupDiv {
+    padding: 1em 1.5em;
+    margin: 3em 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+    background-color: #f9f9f9
+}
+
+#CNnewmyTIEmailSignup,
+#JPnewmyTIEmailSignup,
+#newmyTIEmailSignup {
+    margin-right: .5em;
+    margin-top: .25em
+}
+
+.myTI .profile .formlist li {
+    padding-left: 12em!important
+}
+
+.myTI .profile .formlist li label {
+    margin-left: -12em!important
+}
+
+@media screen and (max-width:1024px) {
+    .filter ul {
+        display: flex
+    }
+    .filter br {
+        display: block
+    }
+    .myTI .pageNav {
+        position: absolute;
+        min-width: 280px
+    }
+    .myTI .navCollapsed .pageNav {
+        min-width: 0
+    }
+    .myTI #disclaimerInfo,
+    .myTI .pageContent {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .event .registerLogin,
+    .registerLong .registerLogin,
+    .registerShort .registerLogin {
+        width: 90%;
+        float: none;
+        border-bottom: none;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        padding-bottom: 0;
+        z-index: inherit
+    }
+    .event .formMiddle,
+    .myTI#disclaimerInfo,
+    .registerLong .formMiddle,
+    .registerShort .formMiddle {
+        margin: 0 3%;
+        width: 90%;
+        border: 1px solid #e0e0e0;
+        border-top: none;
+        border-radius: 0 0 .2em .2em;
+        overflow: visible
+    }
+    .event .pageContent,
+    .registerLong .pageContent,
+    .registerShort .pageContent {
+        float: none
+    }
+    .event .registerLogin .formlist,
+    .registerLong .registerLogin .formlist,
+    .registerShort .registerLogin .formlist {
+        max-width: 280px
+    }
+    #benefits {
+        top: -270px
+    }
+}
+
+@media screen and (max-width:640px) {
+    .filter li,
+    .search .pageContent .c5,
+    .search .pageContent .c7 {
+        float: none
+    }
+    .filter ul {
+        display: block
+    }
+    #benefits,
+    .filter br,
+    .noPhone {
+        display: none
+    }
+}
+
+@media print {
+    .myTI .pageGroup {
+        background: 0 0
+    }
+    .order-details table,
+    .orders-list {
+        width: 99%
+    }
+}

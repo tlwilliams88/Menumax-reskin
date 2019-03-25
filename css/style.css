@@ -1813,6 +1813,30 @@ input.contacts__form__submit:hover {
     .footer__copyright {
         text-align: right;
     }
+    
+    .text__heading__benefits {
+        margin-bottom: 16px;
+        font-size: 28px;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    
+    .text__heading__features {
+        margin-bottom: 20px;
+        font-size: 38px;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .text__heading__vids {
+        margin-bottom: 20px;
+        font-size: 38px;
+        font-weight: 300;
+        text-align: left;
+        /* padding-bottom: 1em; */
+        color: #525252;
+    }
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {
     .slider-nav {

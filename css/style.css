@@ -159,14 +159,15 @@ footer {
     float: left;
 }
 .nav__item:hover .nav__link {
-    color: rgb(219, 201, 176);
+    columns: #00ccff;
+    ;
 }
 .nav__link {
     position: relative;
     transition: color .3s;
 }
 .nav__list .current .nav__link {
-    color: rgb(219, 201, 176);
+    color: #c5c4c4;
 }
 .nav__link:link,
 .nav__link:visited,
@@ -198,7 +199,7 @@ footer {
     background-size: cover;
 }
 .slider__item_1 {
-    background-image: url(../images/photos/menumax-kitchen.jpg);
+    background-image: url(../images/photos/mmax-image-chef.jpg);
 }
 .slider__item_2 {
     background-image: url(../images/photos/mm-chefs-pricing-image.jpg);

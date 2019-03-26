@@ -1538,7 +1538,7 @@ input.contacts__form__submit:hover {
 /*responsive tablet*/
 
 /**************************************************************/
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .slider-nav {
         display: none;
     }
@@ -1560,7 +1560,7 @@ input.contacts__form__submit:hover {
     }
     
     .slider__item__heading {
-        font-size: 56px;
+        font-size: 44px;
     }
     
     .slider__item__afterword {
@@ -1575,6 +1575,14 @@ input.contacts__form__submit:hover {
     .services__categories__line {
         width: 47%;
         margin-right: 3%;
+    }
+    
+    .services__categories__item__heading {
+        margin-bottom: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgb(51, 51, 51);
+        text-align: center
     }
     
     .services__categories__line_3 {
@@ -1638,7 +1646,7 @@ input.contacts__form__submit:hover {
     
     .contacts__form {
         width: 100%;
-        max-width: 600px;
+        max-width: 900px;
         margin: 0 auto;
     }
     

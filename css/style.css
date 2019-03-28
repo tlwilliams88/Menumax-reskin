@@ -66,116 +66,6 @@ footer {
     text-align: center;
 }
 
-/*navigation*/
-
-/**************************************************************/
-.header {
-    width: 100%;
-    max-width: 1200px;
-    padding: 25px 15px;
-    margin: 0 auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 110;
-}
-.inner-header:after {
-    content: '';
-    display: table;
-    clear: both;
-}
-.header_sticky {
-    max-width: 100%;
-    padding: 0;
-    position: fixed;
-    background-color: rgba(10, 10, 10, 0.75);
-}
-.header_sticky .inner-header {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.header_sticky .nav__list {
-    margin-bottom: 0;
-}
-.header:after {
-    content: '';
-    display: table;
-    clear: both;
-}
-.header__logo {
-    height: auto;
-    float: left;
-    position: relative;
-    z-index: 50;
-}
-.logo__item {
-    display: inline-block;
-    max-width: inherit;
-    height: inherit;
-}
-.logo__item img {
-    max-width: 100%;
-    position: relative;
-    top: -4px;
-}
-.logo__item__text {
-    font-size: 26px;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
-}
-.btn_nav {
-    display: none;
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    top: 13px;
-    right: 15px;
-    color: rgb(255, 255, 255);
-    font-size: 27px;
-    outline: none;
-}
-.navigation {
-    width: 100%;
-    position: relative;
-    top: 5px;
-}
-.navigation:after {
-    content: '';
-    display: table;
-    clear: both;
-}
-.nav__list {
-    margin: 0;
-    float: right;
-    list-style-type: none;
-    position: relative;
-    top: 5px;
-}
-.nav__item {
-    font-weight: 500;
-    font-size: 16px;
-    color: rgb(255, 255, 255);
-    margin-left: 50px;
-    float: left;
-}
-.nav__item:hover .nav__link {
-    columns: #00ccff;
-    ;
-}
-.nav__link {
-    position: relative;
-    transition: color .3s;
-}
-.nav__list .current .nav__link {
-    color: #c5c4c4;
-}
-.nav__link:link,
-.nav__link:visited,
-.nav__link:active {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
 /*slider*/
 
 /***********************************************/
@@ -668,7 +558,7 @@ path {
     background-position: center center;
     background-size: cover;
     position: relative;
-    z-index: 20;
+    z-index: 0;
 }
 .video__overlay {
     width: inherit;

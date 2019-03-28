@@ -1601,35 +1601,23 @@ input.contacts__form__submit:hover {
         margin-right: 3%;
     }
     
-    .portfolio__item {
-        height: 300px;
+    .services__text {
+        padding: 20px;
+        border-bottom: #ccc dashed 1px;
+        padding-bottom: 30px;
+        margin-top: 20px;
     }
     
-    .portfolio__item__info {
-        padding: 15px;
+    .video-space {
+        padding-top: 10px;
     }
     
-    .portfolio__item__info__heading-group {
-        padding-right: 15px;
-        bottom: 25px;
-        left: 15px;
+    .services__categories__item__article {
+        text-align: center;
     }
     
-    .portfolio__item__info__heading {
-        margin-bottom: 10px;
-        font-size: 21px;
-    }
-    
-    .portfolio__item__info__foreword {
-        margin-bottom: 23px;
-        font-size: 14px;
-    }
-    
-    .portfolio__popup__close-button {
-        width: 30px;
-        height: 30px;
-        top: 47px;
-        right: 10px;
+    .services__header {
+        padding-bottom: 5px;
     }
     
     .portfolio__popup__close-button__line-1 {
@@ -1729,12 +1717,13 @@ input.contacts__form__submit:hover {
     }
     
     .text__heading__vids {
-        margin-bottom: 20px;
-        font-size: 38px;
+        margin-bottom: 10px;
+        font-size: 24px;
         font-weight: 300;
         text-align: left;
         /* padding-bottom: 1em; */
         color: #525252;
+        margin-left: 25px;
     }
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {

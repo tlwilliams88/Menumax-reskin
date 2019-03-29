@@ -1797,62 +1797,6 @@ input.contacts__form__submit:hover {
         height: 400px;
     }
     
-    .portfolio__item {
-        height: 410px;
-    }
-    
-    .portfolio__item__img {
-        display: block;
-        width: 100%;
-        height: 250px;
-    }
-    
-    .portfolio__item__info {
-        display: block;
-        width: 100%;
-        height: 160px;
-        padding: 15px;
-        padding-bottom: 15px;
-    }
-    
-    .portfolio__item__info__tag {
-        margin-bottom: 25px;
-    }
-    
-    .portfolio__item__info__foreword {
-        display: none;
-    }
-    
-    .portfolio__item__info__heading-group {
-        padding-right: 0;
-        text-align: center;
-        position: static;
-    }
-    
-    .portfolio__item__info__heading {
-        margin-bottom: 25px;
-        font-size: 21px;
-    }
-    
-    .portfolio__popup__close-button {
-        width: 30px;
-        height: 30px;
-        top: 47px;
-        right: 10px;
-    }
-    
-    .portfolio__popup__close-button__line-1 {
-        width: 20px;
-        left: 5px;
-        top: 15px;
-    }
-    
-    .portfolio__popup__close-button__line-2 {
-        width: 20px;
-        left: 5px;
-        top: 15px;
-    }
-    
     .mfp-title {
         padding: 11px 0;
         font-size: 14px;

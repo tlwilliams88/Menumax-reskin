@@ -1968,87 +1968,106 @@ input.contacts__form__submit:hover {
     .nav__item:last-child {
         margin-bottom: 0;
     }
-}
-.mainselection {
-    overflow: hidden;
-    width: 100%;
-    margin-left: 35px;
-    background: url("/images/icons/arrow-collapse-down.png") no-repeat #fff 319px 2px;
-    /* dropdown_arrow.png is a 31x28 image */
-}
-select {
-    border: 0;
-    background: transparent;
-    height: 32px;
-    border: 1px solid #d8d8d8;
-    width: 100%;
-    -webkit-appearance: none;
-}
-.dropdownbad {
-    border: 2px solid #c13339;
-}
-.social-icons {
-    /* text-align: center; */
     
-    fill: rgb(235, 235, 235);
-}
-.social-icons li {
-    display: inline-block;
-    list-style-type: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-}
-.social-icons li a {
-    border-bottom: none;
-}
-.social-icons li img {
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
-    fill: rgb(235, 235, 235);
-}
-svg {
-    fill: rgb(235, 235, 235);
-}
-.pageGroup {
-    background: #edf7f8;
-    background: -moz-radial-gradient(center, ellipse cover, #F4F9FA 50%, #b8c5e1 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, #F4F9FA 50%, #b8c5e1 100%);
-    background: -ms-radial-gradient(center, ellipse cover, #F4F9FA 50%, #b8c5e1 100%);
-    position: relative;
-    margin-top: -1.5em;
-}
-.formMiddle {
-    z-index: 1;
-    width: 640px;
-    overflow: hidden;
-    color: #333;
-    margin: 0;
-    background: #fff;
-    background: rgba(255, 255, 255, .85);
-    border-radius: .2em;
-    border: 1px solid #e0e0e0;
-    position: relative;
-    margin-left: 3%;
-    width: 800px;
-}
-.text__heading__benefits {
-    font-size: 24px;
-    font-weight: 300;
-    text-align: center;
-}
-.services__categories__item__article {
-    text-align: center;
-    padding-bottom: 20px;
-}
-.text__heading__vids {
-    font-size: 24px;
-    margin-left: 15px;
-    margin-top: 10px;
-}
-.video-space {
-    padding-top: 10px;
-}
-.text__article {
-    font-size: 13px;
+    .mainselection {
+        overflow: hidden;
+        width: 100%;
+        margin-left: 35px;
+        background: url("/images/icons/arrow-collapse-down.png") no-repeat #fff 319px 2px;
+        /* dropdown_arrow.png is a 31x28 image */
+    }
+    
+    select {
+        border: 0;
+        background: transparent;
+        height: 32px;
+        border: 1px solid #d8d8d8;
+        width: 100%;
+        -webkit-appearance: none;
+    }
+    
+    .dropdownbad {
+        border: 2px solid #c13339;
+    }
+    
+    .social-icons {
+        /* text-align: center; */
+        fill: rgb(235, 235, 235);
+    }
+    
+    .social-icons li {
+        display: inline-block;
+        list-style-type: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+    }
+    
+    .social-icons li a {
+        border-bottom: none;
+    }
+    
+    .social-icons li img {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+        fill: rgb(235, 235, 235);
+    }
+    
+    svg {
+        fill: rgb(235, 235, 235);
+    }
+    
+    .pageGroup {
+        background: #edf7f8;
+        background: -moz-radial-gradient(center, ellipse cover, #F4F9FA 50%, #b8c5e1 100%);
+        background: -webkit-radial-gradient(center, ellipse cover, #F4F9FA 50%, #b8c5e1 100%);
+        background: -ms-radial-gradient(center, ellipse cover, #F4F9FA 50%, #b8c5e1 100%);
+        position: relative;
+        margin-top: -1.5em;
+    }
+    
+    .formMiddle {
+        z-index: 1;
+        width: 640px;
+        overflow: hidden;
+        color: #333;
+        margin: 0;
+        background: #fff;
+        background: rgba(255, 255, 255, .85);
+        border-radius: .2em;
+        border: 1px solid #e0e0e0;
+        position: relative;
+        margin-left: 3%;
+        width: 800px;
+    }
+    
+    .text__heading__benefits {
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    
+    .services__categories__item__article {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .text__heading__vids {
+        font-size: 24px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    
+    .video-space {
+        padding-top: 10px;
+    }
+    
+    .text__article {
+        font-size: 13px;
+    }
+    
+    .services__header {
+        padding-bottom: 20px;
+    }
 }

@@ -2089,11 +2089,9 @@ svg {
     width: 800px;
 }
 .text__heading__benefits {
-    margin-bottom: 10px;
     font-size: 24px;
     font-weight: 300;
     text-align: center;
-    padding-bottom: 2em;
 }
 .services__categories__item__article {
     text-align: center;

@@ -1710,9 +1710,9 @@ input.contacts__form__submit:hover {
     }
     
     .text__heading__features {
-        margin-bottom: 20px;
-        font-size: 38px;
-        font-weight: 300;
+        margin-bottom: 10px;
+        font-size: 24px;
+        font-weight: 100;
         text-align: center;
     }
     
@@ -2087,4 +2087,26 @@ svg {
     position: relative;
     margin-left: 3%;
     width: 800px;
+}
+.text__heading__benefits {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 2em;
+}
+.services__categories__item__article {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.text__heading__vids {
+    font-size: 24px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.video-space {
+    padding-top: 10px;
+}
+.text__article {
+    font-size: 13px;
 }

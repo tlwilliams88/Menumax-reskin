@@ -284,6 +284,12 @@ footer {
     text-align: center;
     padding-bottom: 2em;
 }
+.social-icons li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    fill: rgb(235, 235, 235);
+}
 .text__heading__features {
     margin-bottom: 20px;
     font-size: 38px;

@@ -602,6 +602,26 @@ path {
     padding: 50px;
     background-color: #fff;
 }
+.social-icons {
+    /* text-align: center; */
+    
+    fill: rgb(235, 235, 235);
+}
+.social-icons li {
+    display: inline-block;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.social-icons li a {
+    border-bottom: none;
+}
+.social-icons li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    fill: rgb(235, 235, 235);
+}
 
 /* CTA section */
 .CTA {

@@ -25,6 +25,11 @@ h2 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.logo {
+    height: 42px;
+    vertical-align: middle;
+}
+
 footer {
     background-color: #999999;
     padding: 25px 25px;
@@ -1705,8 +1710,17 @@ input.contacts__form__submit:hover {
     .slider-nav {
         display: none;
     }
+    .slider__item_1 {
+        background-image: url(../images/photos/mmax-image-chef.jpg);
+        width: 100%;
+    }
     .slider .slick-dots {
         visibility: visible;
+    }
+    .slider__item__overlay {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(20, 20, 20, .60);
     }
     .arrow_slider {
         top: 45%;
@@ -1804,6 +1818,22 @@ input.contacts__form__submit:hover {
     .slider-nav {
         display: none;
     }
+    /* .slider__item_1 {
+        background-image: url(../images/photos/mmax-image-chef.jpg);
+        height: 400px;
+    } */
+    .slider__item {
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    /* .slider__item__overlay {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(20, 20, 20, .60);
+    } */
     .slider .slick-dots {
         visibility: visible;
     }

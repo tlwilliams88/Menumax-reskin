@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenuMax: Menu Engineering, Nutrition Analysis, and Food Costing for the Restaurant Industry &mdash; Ben E. Keith Foods</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.menumax.com/images/favicon.ico">
+
+    <script src="js\jquery-1.7.min.js"></script>
+    <script src="js\public.min.js"></script>
+
+
+    <link href="css\calibre.css" rel="stylesheet" type='text/css'>
+    <link href="css\material-icons.css" rel="stylesheet" type='text/css'>
+
+    <link href="css\login.min.css" rel='stylesheet' type='text/css' />
+    <script src="js\login.min.js"></script>
+
+
+    <style>
+        .login-logo {
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body class="toast">
+    <div class="login-container">
+        <div class="login-column">
+            <div>
+                <div>
+                    <img class="login-logo" src="images/photos/mmax-logo-blue.svg" alt="MenuMax Logo">
+                    <h3 class="login-title large-title">Log In</h3>
+
+                    <div id="notifications" class="indented" style="display: none">
+
+
+
+                    </div>
+
+
+                    <form method="post" action="/authenticate">
+                        <input type="hidden" name="authenticityToken" value="123456">
+
+                        <div class="login-input-field">
+                            <i class="svg-material-icons mail_outline"></i>
+
+                            <div class="control-group  " id="control-group-email">
+                                <label for="email" class="control-label hidden-label">
+        Email<br/>    </label>
+                                <div class="controls">
+
+                                    <input id="email" type="email" name="email" value="" class='input-flexible' autocapitalize='off' placeholder="Email" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="login-input-field">
+                            <i class="svg-material-icons lock_outline"></i>
+
+                            <div class="control-group  ">
+                                <label for="password" class="control-label hidden-label">
+        Password
+    </label>
+                                <div class="controls">
+
+                                    <input type="password" autocomplete='off' name="password" id="password" value="" class='input-flexible' placeholder="Password" />
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <input id="hashUri" type="hidden" name="hashUri" value="">
+
+                        <div style="padding: 0 2px;">
+                            <label class="gray-link remember-me"><input type="checkbox" name="rememberme" value="true">&nbsp;&nbsp;Remember Me</label>
+
+                            <a class="gray-link forgot-password-link" href="#" id="password-reset">Forgot your password?</a>
+
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <button class="blue-button login-button" id="log-in" type="submit">Log In</button>
+
+                        <a class="blue-link centered block" id="sign-up" href="index.html">Not a Customer? Get Started Today!</a>
+
+                    </form>
+                    <script type="text/javascript">
+                        $(function() {
+                            Toast.login.init();
+                            document.getElementById('hashUri').value = window.location.hash || '';
+                        });
+                    </script>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="content-column">
+            <div class="center-cropped">
+                <img src="images/photos/coffee-login-image.jpg">
+                <div class="slider">
+                    <div class="slides">
+                    </div>
+                    <div class="bullets">
+                    </div>
+                </div>
+                <p class="login-footer">
+                    Copyright © 2019 MenuMax.com All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- scripts -->
+<!-- google map -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjYhHbI6v_VpjiLZC0R4j5lHkTzMhuhys&callback=initMap ">
+</script>
+<!-- castomisation of the map -->
+<script src="js/map.js "></script>
+<!-- form validation -->
+<script src="js/form-validation.js "></script>
+<!-- jquery -->
+<script src="js/libs/jquery.min.js "></script>
+<!-- menu -->
+<script src="js/menu.js "></script>
+<!-- slick slider -->
+<script src="js/libs/slick.min.js "></script>
+<!-- text animation -->
+<script src="js/libs/jquery.lettering-0.6.1.min.js "></script>
+<script src="js/libs/jquery.textillate.js "></script>
+<!-- smooth scroll -->
+<script src="js/libs/jquery.smooth-scroll.min.js "></script>
+<!-- vimeo api -->
+<script src="https://player.vimeo.com/api/player.js "></script>
+<script src="js/start-video.js "></script>
+<!-- magnificpopup -->
+<script src="js/libs/jquery.magnific-popup.min.js "></script>
+<!-- load more button -->
+<script src="js/libs/isotope.pkgd.min.js "></script>
+<script src="js/load_more.js "></script>
+<!-- main scripts -->
+<script src="js/main.js "></script>
+<!-- load more settings -->
+
+</html>

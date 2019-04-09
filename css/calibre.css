@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Calibre';
+    src: url("./CalibreWeb-Regular.woff2") format("woff2"), url("./CalibreWeb-Regular.woff") format("woff"), url("./CalibreWeb-Regular.eot") format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url("./CalibreWeb-RegularItalic.woff2") format("woff2"), url("./CalibreWeb-RegularItalic.woff") format("woff"), url("./CalibreWeb-RegularItalic.eot") format("embedded-opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url("./CalibreWeb-Light.woff2") format("woff2"), url("./CalibreWeb-Light.woff") format("woff"), url("./CalibreWeb-Light.eot") format("embedded-opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url("./CalibreWeb-Semibold.woff2") format("woff2"), url("./CalibreWeb-Semibold.woff") format("woff"), url("./CalibreWeb-Semibold.eot") format("embedded-opentype");
+    font-weight: 600;
+    font-style: normal;
+}

@@ -149,5 +149,15 @@ a {
     .customer {
         text-decoration-line: underline;
         text-decoration-style: solid;
+        color: #fff;
+    }
+    .customer a:hover {
+        color: #f1f1f1;
+    }
+    a.customer:hover {
+        color: red;
+    }
+    #login {
+        background-color: #2D58A7;
     }
 }

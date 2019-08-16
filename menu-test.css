@@ -160,4 +160,9 @@ a {
     #login {
         background-color: #2D58A7;
     }
+    .text-overlay {
+        margin-left: 100px;
+        top: 75px;
+        position: absolute;
+    }
 }

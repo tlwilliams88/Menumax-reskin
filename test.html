@@ -4,25 +4,29 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Insulin | BASAGLAR (insulin glargine injection)</title>
-    <meta name="description" content="BASAGLAR is a long-acting basal insulin used to control high blood sugar in adults and children with type 1 diabetes and adults with type 2 diabetes.">
-    <link rel="canonical" href="https://www.basaglar.com" />
+    <title>MenuMax&reg; </title>
+    <meta name="description" content="MenuMax is designed to grow with your business, providing access to multiple locations needed to run a growing business.">
+    <link rel="canonical" href="https://www.menumax.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="theme.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> -->
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.menumax.com/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.menumax.com/images/favicon.ico">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Insulin | BASAGLAR (insulin glargine injection)">
-    <meta property="og:description" content="BASAGLAR is a long-acting basal insulin used to control high blood sugar in adults and children with type 1 diabetes and adults with type 2 diabetes.">
-    <meta property="og:url" content="https://www.basaglar.com">
-    <meta property="og:image" content="https://www.basaglar.com/assets/img/basaglar-logo.png">
+    <meta property="og:title" content="MenuMax | MenuMax is your 24 hour online Kitchen Tool">
+    <meta property="og:description" content="MenuMax is designed to grow with your business, providing access to multiple locations needed to run a growing business.">
+    <meta property="og:url" content="https://www.menumax.com">
+    <meta property="og:image" content="https://www.benekeith.com/images/uploads/menumax-logo.svg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://www.basaglar.com">
-    <meta property="twitter:title" content="Insulin | BASAGLAR (insulin glargine injection)">
-    <meta name="twitter:description" content="BASAGLAR is a long-acting basal insulin used to control high blood sugar in adults and children with type 1 diabetes and adults with type 2 diabetes.">
-    <meta name="twitter:image" content="https://www.basaglar.com/assets/img/basaglar-logo.png">
-    <meta name="twitter:image:alt" content="Basaglar ">
-    <meta name="google-site-verification" content="XcU5HglVjaiuJFOoxzOjphdDV0v4z_YZ9iVlOWaZc_U">
+    <meta name="twitter:site" content="https://www.menumax.com">
+    <meta property="twitter:title" content="MenuMax | MenuMax is your 24 hour online Kitchen Tool">
+    <meta name="twitter:description" content="MenuMax is designed to grow with your business, providing access to multiple locations needed to run a growing business.">
+    <meta name="twitter:image" content="https://www.benekeith.com/images/uploads/menumax-logo.svg">
+    <meta name="twitter:image:alt" content="MenuMax ">
+    <meta name="google-site-verification" content="xDMbH62PHGQkHb0DNsl9U_QhSKaiETCGilYLCxU8UXk" />
     <meta name="msvalidate.01" content="415B200AD3E3B9689BC885965B8C7AF5">
     <style>
         .f-item-tag.demo {
@@ -42,12 +46,8 @@
             text-transform: uppercase;
         }
         
-        .overlay-text {
-            color: #fff;
-        }
-        
-        .overlay-text h2 {
-            color: #fff;
+        #svg-fix {
+            color: red;
         }
         
         .flex-container {
@@ -68,6 +68,11 @@
             color: #fff;
         }
         
+        .sub-copy {
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        
         @media (min-width: 768px) {
             .flex-container {
                 display: flex;
@@ -81,11 +86,50 @@
                 font-size: 100%;
                 flex-grow: 1
             }
+            .overlay-text {
+                color: #fff;
+                line-height: normal;
+            }
+            .overlay-head {
+                color: #fff;
+                font-size: 1.3rem;
+                font-weight: 400;
+            }
+            #fc-image {
+                background-image: url(images/icons/pie-chart-white.svg);
+                background-repeat: no-repeat;
+                background-position: center center;
+                padding-top: 63px;
+                margin-bottom: 20px;
+            }
+            #na-image {
+                background-image: url(images/icons/planning-white.svg);
+                background-repeat: no-repeat;
+                background-position: center center;
+                padding-top: 63px;
+                margin-bottom: 20px;
+            }
+            #rm-image {
+                background-image: url(images/icons/menu-white.svg);
+                background-repeat: no-repeat;
+                background-position: center center;
+                padding-top: 63px;
+                margin-bottom: 20px;
+            }
+            #im-image {
+                background-image: url(images/icons/results-white.svg);
+                background-repeat: no-repeat;
+                background-position: center center;
+                padding-top: 63px;
+                margin-bottom: 20px;
+            }
+            #mobile-hero {
+                display: none;
+            }
         }
-        
-        @media (min-width: 575px) {
+        /* @media (min-width: 575px) {
             .overlay-text: #262626;
-        }
+        } */
     </style>
 </head>
 
@@ -97,13 +141,13 @@
             <nav class="menu" data-navbar-role="menu">
                 <ul class="menu-nav nav">
                     <li class="nav-link"><a href="#work">Home</a></li>
-                    <li class="nav-link"><a href="pricing.html">Price</a></li>
-                    <li class="nav-link"><a href="support.html">Support</a></li>
-                    <li class="nav-link"><a href="contactus.html">Contact</a></li>
-                    <li class="nav-link" id="login"><a href="https://www.menumax.com/public/login.cfm">User Login</a></li>
+                    <li class="nav-link"><a href="#price">Price</a></li>
+                    <li class="nav-link"><a href="#contact">Support</a></li>
+                    <li class="nav-link"><a href="#contact">Contact</a></li>
+                    <li class="nav-link" id="login"><a href="https://www.menumax.com/public/login.cfm">Login</a></li>
                 </ul>
                 <style>
-                    /* This first section is a simple "reset". It allows the navbar to push up against the top of the browser window with no white space around it. This code also sets the default font for your whole page. Put it at the very top of your css page. */
+                /* This first section is a simple "reset". It allows the navbar to push up against the top of the browser window with no white space around it. This code also sets the default font for your whole page. Put it at the very top of your css page. */
                     
                     html,
                     body,
@@ -128,6 +172,7 @@
                         height: 60px;
                         /* set same as height & line-height below */
                         margin-top: 30px;
+                        text-decoration: none;
                     }
                     /* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding. */
                     
@@ -144,146 +189,174 @@
                     /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
                     
                     .nav li:hover {
-                        background: #EBF4FD;
+                        <!-- background: #EBF4FD;
                         transition: background .3s;
+                        -->
                     }
                     /* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
                     
-                    .nav-link {
+                    a:-webkit-any-link {
+                        color: -webkit-link;
+                        cursor: pointer;
+                        text-decoration: none;
+                    }
+                    
+                    a:visited {
                         color: #212b36;
                         text-decoration: none;
                     }
                     
-                    a {
+                    .nav-link {
+                        color: #00a1de;
                         text-decoration: none;
+                        font-size: 1rem;
+                        font-weight: 400;
                     }
+                    
+                    a:link {
+                        text-decoration: none;
+                        color: #00a1de;
+                    }
+                    
+                    .nav-link :hover {
+                        border-bottom: 3px solid #00a1de;
+                        padding-bottom: 1rem;
+                        text-decoration: none;
+                        color: #00a1de;
+                    }
+                    
+                    #login {
+                        background-color: #00a1de;
+                        color: #fff;
+                    }
+                    
+                    #login :hover {
+                        background-color: #00a1de;
+                        color: #fff;
+                    }
+                }
                 </style>
                 <div class="tlac">
                     <div class="content-center ask-lilly">
-                        <!-- <img src="/assets/img/ask-lilly.svg" alt="Ask Lilly" /> --></div>
-                    <div class="content-center content-message">
-                        <h4>Call for a demo! <br />We’re here to help.</h4>
-                        <div><svg class="icon-social-facebook"><use xlink:href="#icon-phone"></use></svg> Call:</div>
-                        <div>(800) LillyRx</div>
-                        <div>(800) 545-5979</div>
+
                     </div>
-                </div>
-                </ul>
+                    </ul>
             </nav>
             <div class="navbar-nav-right">
                 <div class="tlac"><button class="button-toggle"><img src="file:///C:/Users/tlwilliams/Desktop/host-project/images/demo.svg" alt="Call MenuMax for Demo" /> <svg class="icon icon-close" alt="Close"><use xlink:href="#icon-close"></use></svg></button>
                     <div class="tlac-drawer">
                         <div class="content-center ask-lilly">
-                            <h2>Contact MenuMax</h2>
+                            <h2>Demo MenuMax</h2>
                         </div>
                         <div class="content-center content-message">
-                            <h4>Call for a demo! <br />We’re here to help.</h4>
-                            <div>Call 1-877-MenuMax (636-8629)</div>
+                            <h4>Try MenuMax today, call 1-877-MenuMax (636-8629) or <br>email <a class="link" href="mailto:max@menumax.com">MenuMax</a> to schedule a demo</h4>
+                            <!-- <div>Call 1-877-MenuMax (636-8629) or email <a href="mailto:max@menumax.com to schedule a demo">MenuMax</a></div> -->
                         </div>
                     </div>
                 </div>
             </div>
             <div class="menu-button" role="button" data-navbar-role="menu-open"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></div>
             <div class="logo-shadow"></div>
-        </div>
+            </div>
     </header>
     <main>
-        <article class="page-section">
-            <section data-section-name="section-00" class="hero">
-                <div class="container">
-                    <div class="content-block-full">
-                        <h2 class="display-xlarge">A simpler way to increase profits by managing recipes and food costs</h2>
-                    </div>
+        <section data-section-name="section-00" class="hero">
+            <div class="container ot-block">
+                <div class="content-block-full">
+                    <div id="mobile-hero"></div>
+                    <h2 class="display-xlarge">A simpler way to increase profits by managing recipes and food costs</h2>
                 </div>
-
-                <div class="container">
-                    <div class="content-block-full">
-                        <div class="flex-container">
-                            <div>
-                                <center><img id="svg-fix" class="benefits__icon" src="images/icons/pie-chart-white.svg" width="30%"></center>
-                                <h2 style="color: #fff;">Food Costing</h2>
-                                <p class="overlay-text">Increase your profit by ensuring that every item on your menu is priced appropriately.</p>
-                            </div>
-                            <div>
-                                <center><img class="benefits__icon" src="images/icons/planning-white.svg" width="30%"></center>
-                                <h2 style="color: #fff;">Nutrition Analysis</h2>
-                                <p class="overlay-text">Meet consumer demand and comply with menu labeling laws by calculating nutritional content.</p>
-                            </div>
-                            <div>
-                                <center><img class="benefits__icon" src="images/icons/menu-white.svg" width="30%"></center>
-                                <h2 style="color: #fff;">Recipe Management</h2>
-                                <p class="overlay-text">Ensure quality by capturing the details needed to monitor consistent production. </p>
-                            </div>
-                            <div>
-                                <center><img class="benefits__icon" src="images/icons/results-white.svg" width="30%"></center>
-                                <h2 style="color: #fff;">Inventory Management</h2>
-                                <p class="overlay-text">Prevent waste by keeping an accurate inventory. </p>
-                            </div>
-
+                <div class="content-block-full">
+                    <div class="flex-container">
+                        <div>
+                            <div id="fc-image"></div>
+                            <div class="overlay-head">Food Costing</div>
+                            <p class="overlay-text">Increase your profit by ensuring that every item on your menu is priced appropriately.</p>
                         </div>
-                    </div>
-                </div>
-
-            </section>
-            <section data-section-name="section-01 " class="card-cta ">
-                <div class="container ">
-                    <div class="card ">
-                        <div class="header">
-                            <h2 class="menumax">Do you know what your menu items are costing you ?</h2>
-                            <p>Add your recipes as menu items to see your food cost for every plate you serve.</p>
+                        <div>
+                            <div id="na-image"></div>
+                            <div class="overlay-head">Nutrition Analysis</div>
+                            <p class="overlay-text">Meet consumer demand and comply with menu labeling laws by calculating nutritional content.</p>
                         </div>
-                        <div class="cta "><a data-modal-trigger-for="activateSavingsCardModal " class="btn ">Activate card</a></div>
-                    </div>
-                </div>
-            </section>
-            <section data-section-name="section-02 " class="hero noimage ">
-                <div class="container ">
-                    <div class="content-block-xsmall ">
-                        <div class="element-image "><img src="https://tlwilliams88.github.io/Menumax-reskin/images/photos/mm-image-1.jpg"></div>
-                    </div>
-                    <div class="content-block-xlarge ">
-
-                        <h2>MenuMax is your 24 hour online Kitchen Tool</h2>
-                        <ul class="text__article left ">
-                            <li>Food Costing based on the products you buy</li>
-                            <li>Nutrition Analysis for your recipes</li>
-                            <li>Menus that show food cost and nutrition</li>
-                            <li>Inventory customized to your kitchen </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="container ">
-                    <div class="content-block-xsmall ">
-                        <div class="element-image "><img src="https://tlwilliams88.github.io/Menumax-reskin/images/photos/mm-image-2.jpg"></div>
-                    </div>
-                    <div class="content-block-xlarge ">
-
-                        <h2>View nutrition details and food costs based on your recipes and menu items</h2>
-                        <ul class="text__article left ">
-                            <li>Experiment with new recipes and adjust pricing to your ideal food cost percentage</li>
-                            <li>Remove low-performing items from your menu to improve profitability </li>
-                            <li>Create detailed nutrition labels for every item on your menu</li>
-                            <li>Reports for Menu Engineering and Nutrition Analysis</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </section>
-            <section data-section-name="section-03 " class="stop-huge-mobile-imgs ">
-                <div class="container ">
-                    <div class="content-block-small">
-                        <h2>Maximize Your Profits</h2>
-                        <p>Watch our video and see how MenuMax can streamline menu management and increase your profits and sales.
-
-                        </p>
-                    </div>
-                    <div class="content-block-small">
-                        <div class="container-video">
-                            <iframe width="100%" src="https://www.youtube.com/embed/Azs5IEn5-Fs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+                        <div>
+                            <div id="rm-image"></div>
+                            <div class="overlay-head">Recipe Management</div>
+                            <p class="overlay-text">Ensure quality by capturing the details needed to monitor consistent production. </p>
                         </div>
+                        <div>
+                            <div id="im-image"></div>
+                            <div class="overlay-head">Inventory Management</div>
+                            <p class="overlay-text">Prevent waste by keeping an accurate inventory. </p>
+                        </div>
+
                     </div>
                 </div>
-            </section>
+            </div>
+
+
+            </div>
+        </section>
+
+        </section>
+        <section data-section-name="section-01 " class="card-cta ">
+            <div class="container ">
+                <div class="card ">
+                    <div class="header">
+                        <h2 class="menumax">Do you know what your menu items are costing you ?</h2>
+                        <p class="sub-copy">Add your recipes as menu items to see your food cost for every plate you serve.</p>
+                    </div>
+                    <div class="cta "><a data-modal-trigger-for="activateSavingsCardModal " class="btn ">Get Started Today</a></div>
+                </div>
+            </div>
+        </section>
+        <section data-section-name="section-02 " class="hero noimage " style="height: auto;">
+            <div class="container ">
+                <div class="content-block-xsmall ">
+                    <div class="element-image "><img src="https://tlwilliams88.github.io/Menumax-reskin/images/photos/mm-image-1.jpg"></div>
+                </div>
+                <div class="content-block-xlarge ">
+
+                    <h2>MenuMax is your 24 hour online Kitchen Tool</h2>
+                    <ul class="text__article left ">
+                        <li>Food Costing based on the products you buy</li>
+                        <li>Nutrition Analysis for your recipes</li>
+                        <li>Menus that show food cost and nutrition</li>
+                        <li>Inventory customized to your kitchen </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="content-block-xsmall ">
+                    <div class="element-image "><img src="https://tlwilliams88.github.io/Menumax-reskin/images/photos/mm-image-2.jpg"></div>
+                </div>
+                <div class="content-block-xlarge ">
+
+                    <h2>View nutrition details and food costs based on your recipes and menu items</h2>
+                    <ul class="text__article left ">
+                        <li>Experiment with new recipes and adjust pricing to your ideal food cost percentage</li>
+                        <li>Remove low-performing items from your menu to improve profitability </li>
+                        <li>Create detailed nutrition labels for every item on your menu</li>
+                        <li>Reports for Menu Engineering and Nutrition Analysis</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <section data-section-name="section-03 " class="stop-huge-mobile-imgs ">
+            <div class="container ">
+                <div class="content-block-small">
+                    <h2>Maximize Your Profits</h2>
+                    <p class="sub-copy">Watch our video and see how MenuMax can streamline menu management and increase your profits and sales.
+
+                    </p>
+                </div>
+                <div class="content-block-small">
+                    <div class="container-video">
+                        <iframe width="100%" src="https://www.youtube.com/embed/Azs5IEn5-Fs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
         </article>
     </main>
     <div class="isi-wrapper ">
@@ -297,12 +370,12 @@
             <div class="isi-content ">
                 <section>
                     <div class="container ">
-                        <div class="isi-section ">
+                        <div class="isi-section " id="price">
                             <h5>Price</h5>
                             <div class="card ">
                                 <div class="card-section ">
                                     <h2>All the features, One Price</h2>
-                                    <p>MenuMax® is a simple way to increase profits by managing recipes and food costs. Application comes with customer support.
+                                    <p class="sub-copy">MenuMax<sup>&reg;</sup> is a simple way to increase profits by managing recipes and food costs. Application comes with customer support.
                                         Try it today.</p>
                                 </div>
                                 <div class="container">
@@ -336,20 +409,20 @@
                             <div class="card ">
                                 <div class="card-section ">
                                     <h2>Contact MenuMax. We're here to help.</h2>
-                                    <p>Answers to your questions about our product, sales, support or anything else MenuMax.</p>
+                                    <p class="sub-copy">Answers to your questions about our product, sales, support or anything else MenuMax.</p>
                                     <h2>How can we help?</h2>
                                             <p class="sub__copy__title">Get help with MenuMax</p>
-                                            <p class="sub__copy">Visit our <a href="https://www.menumax.com/support/">Customer Support</a> Center</p>
+                                            <p class="sub__copy">Visit our <a class="link" href="https://www.menumax.com/support/">Customer Support</a> Center</p>
                                             <p class="sub__copy__title">Questions / Comments</p>
-                                            <p class="sub__copy">Send email to <a href="mailto:max@menumax.com">MenuMax</a></p>
+                                            <p class="sub__copy">Send email to <a class="link" href="mailto:max@menumax.com">MenuMax</a></p>
 
                                             <p class="sub__copy__title">Follow us on social media</p>
                                             <p class="sub__copy">Twitter
-                                                <a href="https://www.menumax.com/support/"><img src="images/icons/twitter-lock.png" width="32px">@menumax</a> | Facebook
-                                                <a href="http://www.facebook.com/menumax"><img src="images/icons/f_logo_RGB-Blue_58.png" width="26px">Menumax</a>
+                                                <a class="link" href="https://www.menumax.com/support/"><img src="images/icons/twitter-lock.png" width="32px">@menumax</a> | Facebook
+                                                <a class="link" href="http://www.facebook.com/menumax"><img src="images/icons/f_logo_RGB-Blue_58.png" width="26px">Menumax</a>
                                             </p>
                                             <p class="sub__copy__title">Do you still need assistance?</p>
-                                            <p class="sub__copy">Call <a href="tel:18776368629">1-877-MenuMax</a> (636-8629)</p>
+                                            <p class="sub__copy">Call <a class="link" href="tel:18776368629">1-877-MenuMax</a> (636-8629)</p>
                                 </div>
                             </div>
                         </div>
@@ -363,25 +436,27 @@
     <!-- .isi-wrapper -->
     <footer class="site-footer ">
         <div class="footer-nav ">
+
             <div class="container ">
 
                 <div class="content-block-full-centered ">
                     <div>
-                        <p>Originally founded in 1995, MenuMax has been focused on providing the best application for our customers while increasing their profits and saving them money. Our foodservice industry knowledge and customer service simplifies most back of house processes.</p>
+                        <p class="sub-copy">Originally founded in 1995, MenuMax has been focused on providing the best application for our customers while increasing their profits and saving them money. Our foodservice industry knowledge and customer service simplifies most back of house processes.</p>
                         <p>&nbsp;</p>
-                                <p>MenuMax is designed to grow with your business, providing access to multiple locations needed to run a growing business.
+                                <p class="sub-copy">MenuMax is designed to grow with your business, providing access to multiple locations needed to run a growing business.
                                 </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer-logos ">
+
             <div class="container ">
-                <div class="content-block-full ">
-                    <p>MenuMax® is an application that provides secure, power-driven tools to analyze
-                            the user's recipes and menus for nutrition and profitability.</p>
-                    <div class="logo-row ">
-                        <ul class="social-icons center">
+
+                <div class="content-block-full center ">
+                    <div class="footer-text"><a href="#">Contact Us</a> | <a href="#">Support</a> | <a href="#">Call Us</a> | <a href="#">Email Us</a></div>
+                    <p class="footer-text">MenuMax <sup>&reg;</sup> is an application that provides secure, power-driven tools to analyze the user's recipes and menus for nutrition and profitability.</p>
+                    <ul class="social-icons center">
 
                             <li>
                                 <a href="http://www.facebook.com/menumax?ref=ts"><img src='images/icons/facebook.svg' /></a>
@@ -393,7 +468,8 @@
                                 <a href="https://www.youtube.com/user/MenuMax1"><img src='images/icons/youtube-logo.svg' /></a>
                             </li>
                         </ul>
-                    </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -541,73 +617,100 @@
             <div class="modal-content ">
                 <div class="close-modal " data-modal-close><svg class="icon icon-close "><use xlink:href="#icon-close "></use></svg></div>
                 <div class="modal-content-inside ">
-                    <form id="activateSavingsCardForm " class="modal-form " data-panel-set="activateSavingsCardModal ">
+                    <form id="modal-panel-idnumber" class="modal-form " data-panel-set="idnumber">
                         <div id="modal-panel-activate-legal " class="panel active " data-panel="legal ">
                             <div class="panel-content ">
-                                <h2>Activate your BASAGLAR<sup>®</sup> (insulin glargine injection) 100 units/mL Savings Card</h2>
-                                <p>To activate a savings card, just answer the following eligibility questions. Then your card will be ready to be shared with your specialty pharmacy.</p><label class="input-wrapper "><input name="usResident " type="checkbox " /><span class="checkbox-label "><svg class="icon icon-checkmark "><use xlink:href="#icon-checkmark "></use></svg> I confirm that I am a resident of the United States or Puerto Rico who is 18 years of age or older.</span><div class="validation-error "><svg class="icon icon-error "><use xlink:href="#icon-error "></use></svg>Sorry, you must be a resident of the United States or Puerto Rico who is 18 years of age or older to be eligible.</div></label>
-                                <label class="input-wrapper "><input name="notGovInsurance " type="checkbox " /><span class="checkbox-label "><svg class="icon icon-checkmark "><use xlink:href="#icon-checkmark "></use></svg> I confirm that I am NOT enrolled in a governmental program. Examples include Medicaid, Medicare, Medicare Part D, and others.<span class="inline-icon-wrapper " data-tooltip-id="tooltip-term-govProgram "><svg class="icon-question-bubble "><use xlink:href="#icon-question-bubble "></use><span class="visually-hidden ">Question Bubble Icon</span></svg>
-                                    </span>
-                                    </span>
-                                    <div class="validation-error "><svg class="icon icon-error "><use xlink:href="#icon-error "></use></svg>Sorry, if you are covered by a governmental program, you are not eligible.</div>
-                                    </label>
-                            </div>
-                            <div class="panel-bottom ">
-                                <hr class="modal-hr ">
-                                <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " data-modal-close type="button ">Cancel</button><button id="btnActivateSubmitLegal " class="btn btn-primary " type="button ">Next</button></div>
-                            </div>
-                        </div>
-                        <div id="modal-panel-idnumber " class="panel " data-panel="idnumber ">
-                            <h2>Enter the information found on the card.</h2>
-                            <p>Please locate your BASAGLAR savings card and enter the following information.</p>
-                            <div class="form-row "><label class="form-label-medium input-wrapper " for="rxid ">11-digit Savings Card ID number<input id="idnumber " type="text " name="idnumber " value=" " maxlength="11 " placeholder="XXXXXXXXXXX " /><div class="validation-error "><svg class="icon icon-error "><use xlink:href="#icon-error "></use></svg>Sorry, invalid ID Number</div></label></div>
-                            <div class="panel-bottom ">
-                                <hr class="modal-hr ">
-                                <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " data-modal-close type="button ">Cancel</button><button id="btnActivateSubmitIdNumber " class="btn btn-primary " type="button ">Submit</button></div>
-                            </div>
-                        </div>
-                        <div id="modal-panel-email " class="panel " data-panel="email "><span class="display-large ">Enter the information found on the card.</span><br>
-                            <p>Please locate your BASAGLAR savings card and enter the following information.</p><br><label for="email ">Email<br><input type="email " id="savingsCardEmail " name="email " placeholder="yourname@email.com " maxlength="100 " /><br><span class="form-field-description ">Your email address will not be saved or stored.</span><span class="validation-error ">Please enter a valid email address.</span></label><br>
-                            <p class="error-message "></p>
-                            <div class="panel-bottom ">
-                                <hr class="modal-hr ">
-                                <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " type="button ">Cancel</button><button id="btnSubmitEmail " class="btn btn-primary " type="button ">Submit</button></div>
-                            </div>
-                        </div>
-                        <div id="modal-panel-success " class="panel " data-panel="success ">
-                            <div class="center-vertically ">
-                                <div class="checkmark-row "><svg width="101px " height="101px " viewBox="0 0 101 101 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink "><defs></defs><g id="checkmark-row_Template-Examples " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " stroke-linecap="round " stroke-linejoin="round "><g id="modal-panel-success_Desktop_Taltz-Support---Download-card-5 " transform="translate(-649.000000, -331.000000) " stroke="#49A942 "><g id="modal-panel-success_Modal " transform="translate(348.000000, 154.000000) "><g id="download_Icons_Green_CircleCheckMark " transform="translate(302.000000, 177.000000) "><g id="download_Icons_CircleCheckMark "><polyline class="stroke " id="download_Stroke-39 " points="69.1823899 35.1320973 36.7531447 65.3993929 25.9433962 54.5896444 "></polyline><path class="stroke " d="M99.4496855,50.2657451 C99.4496855,77.7311539 77.1772799,99.9905878 49.7248428,99.9905878 C22.2551101,99.9905878 0,77.7311539 0,50.2657451 C0,22.8003363 22.2551101,0.540902288 49.7248428,0.540902288C77.1772799,0.540902288 99.4496855,22.8003363 99.4496855,50.2657451 Z " id="download_Stroke-41 "></path></g></g></g></g></g></svg></div>
-                                <div><span class="display-large ">Your Savings Card has been activated.</span><br><span class="email-display-field display-large bold ">name@address.com</span></div>
+                                <h2>Fill out the form to schedule a demo!</h2>
+                                <p>We want to make sure you get the most out of your MenuMax account, so a representative will be contacting you shortly to discuss all that MenuMax can do for you. Your representative will be happy to give you a demo showing
+                                    how MenuMax works and answer any questions. Just fill out the form:</p>
+                                <div class="container">
+                                    <form id="contact" action="" method="post">
+                                        <h3>Colorlib Contact Form</h3>
+                                        <h4>Contact us for custom quote</h4>
+                                        <fieldset>
+                                            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                                        </fieldset>
+                                        <fieldset>
+                                            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                                        </fieldset>
+                                        <fieldset>
+                                            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+                                        </fieldset>
+                                        <fieldset>
+                                            <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+                                        </fieldset>
+                                        <fieldset>
+                                            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                                        </fieldset>
+                                        <fieldset>
+                                            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                                        </fieldset>
+                                        <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+                                    </form>
+                                </div>
+
                             </div>
                         </div>
-                        <div id="modal-panel-error " class="panel " data-panel="error ">
-                            <div class="center-vertically ">
-                                <h1>There was a problem activating your card. Please verify that your card number is correct.</h1>
-                            </div>
-                            <div class="panel-bottom ">
-                                <hr class="modal-hr ">
-                                <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " type="button " data-modal-close>Close</button></div>
-                            </div>
+                        <div class="panel-bottom ">
+                            <hr class="modal-hr ">
+                            <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " data-modal-close type="button ">Cancel</button><button id="btnActivateSubmitLegal " class="btn btn-primary " type="button ">Next</button></div>
                         </div>
-                    </form>
                 </div>
+                <div id="modal-panel-idnumber " class="panel " data-panel="idnumber ">
+                    <h2>Enter the information found on the card.</h2>
+                    <p>Please locate your BASAGLAR savings card and enter the following information.</p>
+                    <div class="form-row "><label class="form-label-medium input-wrapper " for="rxid ">11-digit Savings Card ID number<input id="idnumber " type="text " name="idnumber " value=" " maxlength="11 " placeholder="XXXXXXXXXXX " /><div class="validation-error "><svg class="icon icon-error "><use xlink:href="#icon-error "></use></svg>Sorry, invalid ID Number</div></label></div>
+                    <div class="panel-bottom ">
+                        <hr class="modal-hr ">
+                        <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " data-modal-close type="button ">Cancel</button><button id="btnActivateSubmitIdNumber " class="btn btn-primary " type="button ">Submit</button></div>
+                    </div>
+                </div>
+                <div id="modal-panel-email " class="panel " data-panel="email "><span class="display-large ">Enter the information found on the card.</span><br>
+                    <p>Please locate your BASAGLAR savings card and enter the following information.</p><br><label for="email ">Email<br><input type="email " id="savingsCardEmail " name="email " placeholder="yourname@email.com " maxlength="100 " /><br><span class="form-field-description ">Your email address will not be saved or stored.</span><span class="validation-error ">Please enter a valid email address.</span></label><br>
+                    <p class="error-message "></p>
+                    <div class="panel-bottom ">
+                        <hr class="modal-hr ">
+                        <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " type="button ">Cancel</button><button id="btnSubmitEmail " class="btn btn-primary " type="button ">Submit</button></div>
+                    </div>
+                </div>
+                <div id="modal-panel-success " class="panel " data-panel="success ">
+                    <div class="center-vertically ">
+                        <div class="checkmark-row "><svg width="101px " height="101px " viewBox="0 0 101 101 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink "><defs></defs><g id="checkmark-row_Template-Examples " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " stroke-linecap="round " stroke-linejoin="round "><g id="modal-panel-success_Desktop_Taltz-Support---Download-card-5 " transform="translate(-649.000000, -331.000000) " stroke="#49A942 "><g id="modal-panel-success_Modal " transform="translate(348.000000, 154.000000) "><g id="download_Icons_Green_CircleCheckMark " transform="translate(302.000000, 177.000000) "><g id="download_Icons_CircleCheckMark "><polyline class="stroke " id="download_Stroke-39 " points="69.1823899 35.1320973 36.7531447 65.3993929 25.9433962 54.5896444 "></polyline><path class="stroke " d="M99.4496855,50.2657451 C99.4496855,77.7311539 77.1772799,99.9905878 49.7248428,99.9905878 C22.2551101,99.9905878 0,77.7311539 0,50.2657451 C0,22.8003363 22.2551101,0.540902288 49.7248428,0.540902288C77.1772799,0.540902288 99.4496855,22.8003363 99.4496855,50.2657451 Z " id="download_Stroke-41 "></path></g></g></g></g></g></svg></div>
+                        <div><span class="display-large ">Your Savings Card has been activated.</span><br><span class="email-display-field display-large bold ">name@address.com</span></div>
+                    </div>
+                </div>
+                <div id="modal-panel-error " class="panel " data-panel="error ">
+                    <div class="center-vertically ">
+                        <h1>There was a problem activating your card. Please verify that your card number is correct.</h1>
+                    </div>
+                    <div class="panel-bottom ">
+                        <hr class="modal-hr ">
+                        <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " type="button " data-modal-close>Close</button></div>
+                    </div>
+                </div>
+                </form>
             </div>
         </div>
-        <div id="blocker "></div>
-        <div id="white-blocker "></div>
-        <script type="text/javascript ">
-            var TIP_DEFINITIONS = [{
-                "id ": "term-one ",
-                "text ": "A term you might need to clarify "
-            }, {
-                "id ": "term-two ",
-                "text ": "An extremely complicated term that has a lot of baggage. This one might describe a complex medical procedure or an extensive process of meeting with a health care provider. "
-            }, {
-                "id ": "tooltip-term-govProgram ",
-                "text ": "Medigap, DOD, VA, TRICARE/CHAMPUS, or any state patient or pharmaceutical assistance program. "
-            }]
-        </script>
-        <script src="main.js "></script>
+    </div>
+    <div id="blocker "></div>
+    <div id="white-blocker "></div>
+    <script type="text/javascript ">
+        var TIP_DEFINITIONS = [{
+            "id ": "term-one ",
+            "text ": "A term you might need to clarify "
+        }, {
+            "id ": "term-two ",
+            "text ": "An extremely complicated term that has a lot of baggage. This one might describe a complex medical procedure or an extensive process of meeting with a health care provider. "
+        }, {
+            "id ": "tooltip-term-govProgram ",
+            "text ": "Medigap, DOD, VA, TRICARE/CHAMPUS, or any state patient or pharmaceutical assistance program. "
+        }]
+    </script>
+    <script src="main.js "></script>
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+
 </body>
 
 </html>

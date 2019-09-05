@@ -305,10 +305,11 @@
                         <h2 class="menumax">Do you know what your menu items are costing you ?</h2>
                         <p class="sub-copy">Add your recipes as menu items to see your food cost for every plate you serve.</p>
                     </div>
-                    <div class="cta "><a data-modal-trigger-for="activateSavingsCardModal " class="btn ">Get Started Today</a></div>
+                    <div class="cta "><a class="btn" href="#open-modal">Get Started Today</a></div>
                 </div>
             </div>
         </section>
+
         <section data-section-name="section-02 " class="hero noimage " style="height: auto;">
             <div class="container ">
                 <div class="content-block-xsmall ">
@@ -475,6 +476,80 @@
     </div>
     </div>
     </footer>
+
+    <style>
+            .modal-window {
+                position: fixed;
+                background-color: rgba(255, 255, 255, 0.25);
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 999;
+                visibility: hidden;
+                opacity: 0;
+                pointer-events: none;
+                transition: all 0.3s;
+                &:target {
+                  visibility: visible;
+                  opacity: 1;
+                  pointer-events: auto;
+                }
+                &>div {
+                  width: 400px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  padding: 2em;
+                  background: #ffffff;
+                }
+                header {
+                  font-weight: bold;
+                }
+                h1 {
+                  font-size: 150%;
+                  margin: 0 0 15px;
+                }
+              }
+
+              .modal-close {
+                color: #aaa;
+                line-height: 50px;
+                font-size: 80%;
+                position: absolute;
+                right: 0;
+                text-align: center;
+                top: 0;
+                width: 70px;
+                text-decoration: none;
+                &:hover {
+                  color: black;
+                }
+              }
+
+
+
+              .modal-window div:not(:last-of-type) {
+                margin-bottom: 15px;
+              }
+
+              small {
+                color: #aaa;
+              }
+
+              .btn {
+                background-color: #fff;
+                padding: 1em 1.5em;
+                border-radius: 3px;
+                text-decoration: none;
+                i {
+                  padding-right: 0.3em;
+                }
+              }
+
+
+    </style>
     <!-- hcpModal -->
     <div class="modal " data-modal-id="hcpModal " data-modal-behavior="exitHcp ">
         <div class="modal-content ">
@@ -620,74 +695,18 @@
                     <form id="modal-panel-idnumber" class="modal-form " data-panel-set="idnumber">
                         <div id="modal-panel-activate-legal " class="panel active " data-panel="legal ">
                             <div class="panel-content ">
-                                <h2>Fill out the form to schedule a demo!</h2>
-                                <p>We want to make sure you get the most out of your MenuMax account, so a representative will be contacting you shortly to discuss all that MenuMax can do for you. Your representative will be happy to give you a demo showing
-                                    how MenuMax works and answer any questions. Just fill out the form:</p>
-                                <div class="container">
-                                    <form id="contact" action="" method="post">
-                                        <h3>Colorlib Contact Form</h3>
-                                        <h4>Contact us for custom quote</h4>
-                                        <fieldset>
-                                            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-                                        </fieldset>
-                                        <fieldset>
-                                            <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                                        </fieldset>
-                                        <fieldset>
-                                            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
-                                        </fieldset>
-                                        <fieldset>
-                                            <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-                                        </fieldset>
-                                        <fieldset>
-                                            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-                                        </fieldset>
-                                        <fieldset>
-                                            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                                        </fieldset>
-                                        <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
-                                    </form>
-                                </div>
+                                <center>
+                                    <h2>Schedule Your Free Demo</h2>
+                                    <iframe src="https://cdn.forms-content.sg-form.com/cf408686-cffb-11e9-ade3-2e74f58accff" />
+
+                                </center>
 
                             </div>
+
                         </div>
-                        <div class="panel-bottom ">
-                            <hr class="modal-hr ">
-                            <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " data-modal-close type="button ">Cancel</button><button id="btnActivateSubmitLegal " class="btn btn-primary " type="button ">Next</button></div>
-                        </div>
+
                 </div>
-                <div id="modal-panel-idnumber " class="panel " data-panel="idnumber ">
-                    <h2>Enter the information found on the card.</h2>
-                    <p>Please locate your BASAGLAR savings card and enter the following information.</p>
-                    <div class="form-row "><label class="form-label-medium input-wrapper " for="rxid ">11-digit Savings Card ID number<input id="idnumber " type="text " name="idnumber " value=" " maxlength="11 " placeholder="XXXXXXXXXXX " /><div class="validation-error "><svg class="icon icon-error "><use xlink:href="#icon-error "></use></svg>Sorry, invalid ID Number</div></label></div>
-                    <div class="panel-bottom ">
-                        <hr class="modal-hr ">
-                        <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " data-modal-close type="button ">Cancel</button><button id="btnActivateSubmitIdNumber " class="btn btn-primary " type="button ">Submit</button></div>
-                    </div>
-                </div>
-                <div id="modal-panel-email " class="panel " data-panel="email "><span class="display-large ">Enter the information found on the card.</span><br>
-                    <p>Please locate your BASAGLAR savings card and enter the following information.</p><br><label for="email ">Email<br><input type="email " id="savingsCardEmail " name="email " placeholder="yourname@email.com " maxlength="100 " /><br><span class="form-field-description ">Your email address will not be saved or stored.</span><span class="validation-error ">Please enter a valid email address.</span></label><br>
-                    <p class="error-message "></p>
-                    <div class="panel-bottom ">
-                        <hr class="modal-hr ">
-                        <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " type="button ">Cancel</button><button id="btnSubmitEmail " class="btn btn-primary " type="button ">Submit</button></div>
-                    </div>
-                </div>
-                <div id="modal-panel-success " class="panel " data-panel="success ">
-                    <div class="center-vertically ">
-                        <div class="checkmark-row "><svg width="101px " height="101px " viewBox="0 0 101 101 " version="1.1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink "><defs></defs><g id="checkmark-row_Template-Examples " stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd " stroke-linecap="round " stroke-linejoin="round "><g id="modal-panel-success_Desktop_Taltz-Support---Download-card-5 " transform="translate(-649.000000, -331.000000) " stroke="#49A942 "><g id="modal-panel-success_Modal " transform="translate(348.000000, 154.000000) "><g id="download_Icons_Green_CircleCheckMark " transform="translate(302.000000, 177.000000) "><g id="download_Icons_CircleCheckMark "><polyline class="stroke " id="download_Stroke-39 " points="69.1823899 35.1320973 36.7531447 65.3993929 25.9433962 54.5896444 "></polyline><path class="stroke " d="M99.4496855,50.2657451 C99.4496855,77.7311539 77.1772799,99.9905878 49.7248428,99.9905878 C22.2551101,99.9905878 0,77.7311539 0,50.2657451 C0,22.8003363 22.2551101,0.540902288 49.7248428,0.540902288C77.1772799,0.540902288 99.4496855,22.8003363 99.4496855,50.2657451 Z " id="download_Stroke-41 "></path></g></g></g></g></g></svg></div>
-                        <div><span class="display-large ">Your Savings Card has been activated.</span><br><span class="email-display-field display-large bold ">name@address.com</span></div>
-                    </div>
-                </div>
-                <div id="modal-panel-error " class="panel " data-panel="error ">
-                    <div class="center-vertically ">
-                        <h1>There was a problem activating your card. Please verify that your card number is correct.</h1>
-                    </div>
-                    <div class="panel-bottom ">
-                        <hr class="modal-hr ">
-                        <div class="modal-buttons "><button class="btn btn-secondary modal-cancel " type="button " data-modal-close>Close</button></div>
-                    </div>
-                </div>
+
                 </form>
             </div>
         </div>

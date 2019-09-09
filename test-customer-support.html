@@ -140,12 +140,13 @@
             <a href="test.html" class="navbar-brand"><img src="https://www.benekeith.com/images/uploads/menumax-logo.svg" alt="MenuMax Logo"></a>
             <nav class="menu" data-navbar-role="menu">
                 <ul class="menu-nav nav">
-                    <li class="nav-link"><a href="test.html">Home</a></li>
+                    <li class="nav-link"><a href="test.html#benefits">Benefits</a></li>
                     <li class="nav-link"><a href="test.html#price">Price</a></li>
-                    <li class="nav-link"><a href="test-customer-support.html">Customer Support</a></li>
+                    <li class="nav-link hot"><a href="test-customer-support.html">Customer Support</a></li>
                     <li class="nav-link"><a href="test.html#contact">Contact</a></li>
                     <li class="nav-link" id="login"><a href="https://www.menumax.com/public/login.cfm">Login</a></li>
                 </ul>
+
                 <style>
                 /* This first section is a simple "reset". It allows the navbar to push up against the top of the browser window with no white space around it. This code also sets the default font for your whole page. Put it at the very top of your css page. */
                     
@@ -183,7 +184,7 @@
                         /* should be the same as line-height */
                         line-height: 60px;
                         /* should be the same as height */
-                        padding: 0 40px;
+                        padding: 0 30px;
                         /* "0" sets top and bottom padding to none */
                     }
                     /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
@@ -210,7 +211,7 @@
                         color: #00a1de;
                         text-decoration: none;
                         font-size: 1rem;
-                        font-weight: 400;
+                        font-weight: 500;
                     }
                     
                     a:link {
@@ -225,14 +226,15 @@
                         color: #00a1de;
                     }
                     
-                    #login {
-                        background-color: #00a1de;
-                        color: #fff;
+                    .hot {
+                        border-bottom: 3px solid #00a1de;
+                        padding-bottom: 1rem;
+                        text-decoration: none;
+                        color: #00a1de;
                     }
                     
-                    #login :hover {
-                        background-color: #00a1de;
-                        color: #fff;
+                    #login {
+                        border: 1px solid #2e98cc;
                     }
                 }
                 </style>

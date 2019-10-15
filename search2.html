@@ -1,0 +1,175 @@
+{layout="_layouts/.page_wrapper"}
+
+{!-- BEGIN ADDITIONAL CSS --}
+{layout:set name="css"}
+<style>
+#search_bar {display:block;width:100%;height:120px;line-height: 120px;background: url(/assets/img/bkg-repeater-dark.jpg);text-align:center;}
+#search_bar .container {position: relative;}
+#search_bar #suggestions {}
+#search_bar #suggestions ul {position: absolute;top: 100%;background: white;width: 100%;left: 50%;z-index: 10;text-align: left;transform: translateX(-50%);height:420px;overflow: scroll;margin:0;padding:25px;}
+#search_bar #suggestions ul li {list-style:none;margin-bottom: 5px;}
+#search_bar #suggestions ul li a {font-size: 16px;font-weight: 500;color: #73624d;}
+#pagination li a {
+    color: #444;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+#pagination {
+    color: #444;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+#pagination li a {
+    color: #444;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    line-height: 30px;
+}
+.page-links {
+float:left;
+}
+
+#pagination li.active {
+    background-color: #ee6e73;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+#search_bar input[name=keywords] {display: inline-block;width: calc(100% - 70px);font-weight: 900;text-transform: uppercase;border-top-left-radius: 10px;border-bottom-right-radius: 10px;font-size: 16px;line-height: 42px;height: 50px;vertical-align: middle;border: 2px solid #d6ceb7;}
+ #search_bar button.search-btn {padding: 0;border: none;margin-top: 3px;margin-left: 9px;}
+  .search-btn {color: #73624d;}
+  .search-btn:before {color: #73624d;}
+  .search-btn svg path {stroke: #73624d !important;}
+  #results {padding: 35px 20px 135px;border-top: 1px solid #d8ceb5;}
+  #results .container h3 {color: #B98B36;font-size: 20px;font-weight: 900;margin-bottom: 15px;}
+  #results article {border-bottom: 1px solid #dacdba;padding: 25px 0 10px;margin-bottom:-3px;}
+  #results article .container img {display: block;vertical-align: top;max-width: 220px;float: left;margin-right: 25px;}
+  #results article .container {position: relative;}
+  #results article h4 a {color: #ba8a35;font-size: 17px;font-weight: 900;}
+  #results article h5 {color: #ba8a35;font-size: 14px;font-weight: 900;text-transform:uppercase;margin-bottom:5px;}
+  #results article h5.food_products, #results article h5.food_brands,#results article h5.food_resources,#results article h5.food_location,#results article h5.food_recalls,#results article h5.food_feed {color:#2d58a7}
+  #results article h5.beverage_brands,#results article h5.beverage_locations, #results article h5.beverage_brewing {color:#ec3729}
+  #results article .location-date {color: #72624b;font-size: 16px;font-weight: 700;letter-spacing: .01em;}
+  #results article .apply {position: absolute;top: 50%;right: -170px;background: #b98b36;width: 150px;color: #FFF;font-size:13px;text-transform:uppercase;letter-spacing: .2em;font-weight: 700;border-top-left-radius: 10px;border-bottom-right-radius: 10px;height: 45px;text-align: center;line-height: 45px;transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);}
+  #suggestions {}
+</style>
+{/layout:set}
+{!-- END ADDITIONAL CSS --}
+
+{!-- BEGIN ADDITIONAL JAVASCRIPT --}
+{layout:set name="js"}
+{/layout:set}
+{!-- END ADDITIONAL JAVASCRIPT --}
+
+{!-- BEGIN PAGE CONTENT --}
+
+<main class="search-main">
+ <section id="careers-detail" class="repeater-background">
+ <div id="search_bar">
+  <div class="container">
+ {exp:low_search:form required="keywords" result_page="/results"  query="{segment_2}"}
+    <input name="keywords" type="search" value='{exp:low_search:keywords query="{segment_2}"}' autocomplete="off" />
+    <button type="submit" name="submit" class="cta-icon button-icon-animate ir search-btn">
+      <svg class="search" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.97 15.09"><defs></defs><path class="cls-1" style="fill:#73624d !important" d="M15,13.61l-3.9-3.9a6.12,6.12,0,1,0-1.5,1.46l3.92,3.92ZM1.79,6.12a4.32,4.32,0,1,1,4.32,4.32A4.33,4.33,0,0,1,1.79,6.12Z"/></svg>
+      <svg class="svg-one" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve"><g class="" style="opacity:0.2;"><path class="" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10; stroke-width: 2px;" d="M25,1.5c12.9,0,23.5,10.6,23.5,23.5S37.9,48.5,25,48.5S1.5,37.9,1.5,25S12.1,1.5,25,1.5 M25,0.5C11.5,0.5,0.5,11.5,0.5,25s11,24.5,24.5,24.5s24.5-11,24.5-24.5S38.5,0.5,25,0.5L25,0.5z"></path></g><g><circle class="button-icon-animate__circle--inner-circle" cx="25" cy="25" r="24.5" style=""></circle></g></svg>
+      <svg class="svg-two" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve"><path class="" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10; stroke-width: 2px;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path></svg>
+      <svg class="svg-three" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve"><path class="" style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;stroke-width: 2px;" d="M25,0.5c13.5,0,24.5,11,24.5,24.5S38.5,49.5,25,49.5"></path></svg>
+    </button>
+    {/exp:low_search:form}
+
+    </div>
+  </div>
+  <div id="results">
+    <div class="container">
+    <h3>Search Results for "{exp:low_search:keywords query="{segment_2}"}"</h3>
+    </div>
+    {exp:low_search:results query="{segment_2}" collection="beverage_brewing|leadership|beverage_brands|feed_events|food_location|food_products|food_feed|food_recalls|food_resources" parse="inward" limit="20" paginate="bottom" keywords:mode="any" keywords:loose="both"}
+    <article class="{count}">
+      <div class="container">
+        {if no_results}
+          <article class="1">
+            <div class="container">
+              <p>There were no results found for your search.</p>
+            </div>
+          </article>
+        {/if}
+        {if channel_short_name == "beverage_brands"}
+        <h4><li><a href="/beverage/brands#{url_title}">{title}</a></li></h4>
+        {if:elseif channel_short_name == "food_resources"}
+        <h4><li><a href="/food/business-builders/{categories}{category_url_title}{/categories}/{url_title}">{title}</a></li></h4>
+        {if:elseif channel_short_name == "food_recalls"}
+        <h4><li><a href="/food/recalls">{title}</a></li></h4>
+        {if:else}
+        <h4><li><a href="{auto_path}">{title}</a></li></h4>
+        {/if}
+        <h5 class="{channel_short_name}">{channel}</h5>
+        {if channel_short_name == "food_feed" || channel_short_name == "beverage_brewing"}
+        {exp:channel_images:images entry_id="{entry_id}" limit="1"}
+        <img src="{image:url:large}" alt="" class="search_image" />
+        {/exp:channel_images:images}
+        {if:elseif channel_short_name == "food_products"}
+        <img src="{food_product_entry_image}" alt="" class="search_image" />
+        {if:elseif channel_short_name == "beverage_brands"}
+        <img src="{beverage_brand_logo}" alt="" class="search_image" />
+        {if:elseif channel_short_name == "food_feed"}
+        <img src="{food_header_image}" alt="" class="search_image" />
+        {/if}
+        <p>{low_search_excerpt}</p>
+      </div>
+      <div class="clear"></div>
+    </article>
+
+    {if count == total_results}
+<div class="container">
+    {paginate}
+    <div class="clear"></div>
+    <div id="pagination" style=''>
+      {pagination_links}
+        {previous_page}
+        <ul class="page-links">
+          <li  class="waves-effect"><a href="{pagination_url}" class="page-previous">Previous Page</a></li>
+        </ul>
+        {/previous_page}
+        <ul class="page-links">
+          {page}
+          <li  class="waves-effect"><a href="{pagination_url}" class="page page-{pagination_page_number} {if current_page}active{/if}">{pagination_page_number}</a></li>
+          {/page}
+        </ul>
+        {next_page}
+        <ul class="page-links">
+          <li class="waves-effect"><a href="{pagination_url}" class="page-next">Next Page</a></li>
+        </ul>
+      {/next_page}
+      {/pagination_links}
+    </div>
+    {/paginate}
+    {/if}
+{/exp:low_search:results}
+  </div>
+</div>
+ </section>
+</main>
+
+{snp_footer}
+{!-- END PAGE CONTENT --}
+<!--  -->
